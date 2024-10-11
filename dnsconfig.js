@@ -1,5 +1,5 @@
 var regNone = NewRegistrar("none");
-var providerCF = DnsProvider(NewDnsProvider("cloudflare"));
+var DSP_CLOUDFLARE = DnsProvider(NewDnsProvider("cloudflare"));
 
 function getDomainsList(filesPath) {
     var result = [];
@@ -80,5 +80,5 @@ for (var idx in domains) {
 
 // Commit all DNS records
 for (var domainName in commit) {
-    D(domainName, regNone, providerCF, commit[domainName]);
+    D(domainName, regNone, DSP_CLOUDFLARE, commit[domainName]);
 }
