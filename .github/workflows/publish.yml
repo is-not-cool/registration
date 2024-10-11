@@ -26,9 +26,7 @@ jobs:
         run: |
           echo '{"cloudflare": {"TYPE": "CLOUDFLAREAPI", "accountid": "$CF_ACCOUNT_ID", "apitoken": "$CF_API_TOKEN"}}' > ./creds.json
       - name: Install DNSControl
-        uses: gacts/install-dnscontrol@v1
-        with:
-          version: 3.31.4
+        uses: is-cool-me/dnscontrol-action@v4.11.0
 
       - name: Publish DNS Records
         run: dnscontrol push
