@@ -22,12 +22,13 @@ jobs:
             - uses: actions/checkout@v4
 
             - name: Update creds.json
-            - run: echo '{"cloudflare":{"TYPE":"CLOUDFLAREAPI","apitoken":"$CLOUDFLARE_API_TOKEN"}}' > ./creds.json
+            - run: echo '{"cloudflare":{"TYPE":"CLOUDFLAREAPI","apitoken":"$CLOUDFLARE_API_TOKEN", "accountid":"$CLOUDFLARE_ACCOUNT_ID"}}' > ./creds.json
 
             - name: Publish
               uses: is-cool-me/dnscontrol-action@v4.11.0
               env:
                   CLOUDFLARE_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+                  CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
               with:
                   args: push
                   config_file: "dnsconfig.js"
