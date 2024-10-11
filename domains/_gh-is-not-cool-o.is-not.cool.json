@@ -1,0 +1,17 @@
+{
+    "description": "TXT Verification for the Organization",
+
+    "domain": "is-not.cool",
+    "subdomain": "_gh-is-not-cool-o",
+
+    "owner": {
+        "repo": "https://github.com/is-not-cool/",
+        "email": ""
+    },
+
+    "record": {
+        "TXT": "bc9be91276"
+    },
+
+    "proxied": false
+}
