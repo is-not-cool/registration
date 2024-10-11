@@ -1,6 +1,5 @@
-
 var regNone = NewRegistrar("none");
-var providerPdns = DnsProvider(NewDnsProvider("cloudflareapi"));
+var providerCF = DnsProvider(NewDnsProvider("cloudflareapi"));
 
 function getDomainsList(filesPath) {
     var result = [];
@@ -81,5 +80,5 @@ for (var idx in domains) {
 
 // Commit all DNS records
 for (var domainName in commit) {
-    D(domainName, regNone, providerPdns, commit[domainName]);
+    D(domainName, regNone, providerCF, commit[domainName]);
 }
