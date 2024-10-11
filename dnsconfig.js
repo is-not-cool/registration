@@ -6,11 +6,31 @@ var proxy = {
   off: { "cloudflare_proxy": "off" }
 }
 
-var domains = getDomainsList('./domains');
-var commit = {};
+
+function getDomainsList(filesPath) {
+    var result = [];
+    var files = glob.apply(null, [filesPath, true, '.json']);
+  
+    for (var i = 0; i < files.length; i++) {
+      var basename = files[i].split('/').reverse()[0];
+      var name = basename.split('.')[0];
+  
+      result.push({ name: name, data: require(files[i]) });
+    }
+  
+    return result;
+  }
+  
+  var domains = getDomainsList('./domains');
+  var commit = {};
 
 for (var idx in domains) {
+  var domainData = domains[idx].data;
   var proxyState = proxy.on; // enabled by default
+
+  if (!commit[domainData.domain]) {
+    commit[domainData.domain] = [];
+  }
 
   if (domainData.proxied === false) {
     proxyState = proxy.off;
@@ -102,4 +122,3 @@ for (var idx in domains) {
 for (var domainName in commit) {
   D(domainName, regNone, providerCf, commit[domainName]);
 }
-
