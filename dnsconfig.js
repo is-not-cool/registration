@@ -1,28 +1,32 @@
 var regNone = NewRegistrar("none");
 var providerCf = DnsProvider(NewDnsProvider("cloudflare"));
 
-var proxy = {
+var proxy = { // https://stackexchange.github.io/dnscontrol/providers/cloudflare
   on: { "cloudflare_proxy": "on" },
   off: { "cloudflare_proxy": "off" }
 }
 
-
 function getDomainsList(filesPath) {
-    var result = [];
-    var files = glob.apply(null, [filesPath, true, '.json']);
-  
-    for (var i = 0; i < files.length; i++) {
-      var basename = files[i].split('/').reverse()[0];
-      var name = basename.split('.')[0];
-  
-      result.push({ name: name, data: require(files[i]) });
-    }
-  
-    return result;
+  var result = [];
+  var files = glob.apply(null, [filesPath, true, '.json']);
+
+  for (var i = 0; i < files.length; i++) {
+    var basename = files[i].split('/').reverse()[0];
+    var name = basename.split('.')[0];
+
+    result.push({name: name, data: require(files[i])});
   }
-  
-  var domains = getDomainsList('./domains');
-  var commit = {};
+
+  return result;
+}
+
+var domains = getDomainsList('./domains');
+
+/**
+ * @type {{}}
+*/
+
+var commit = {};
 
 for (var idx in domains) {
   var domainData = domains[idx].data;
@@ -36,89 +40,53 @@ for (var idx in domains) {
     proxyState = proxy.off;
   }
 
-  // Handle A records
   if (domainData.record.A) {
     for (var a in domainData.record.A) {
       commit[domainData.domain].push(
-        A(domainData.subdomain, IP(domainData.record.A[a]), proxyState)
-      );
+        A(domainData.subdomain, IP(domainData.record.A[a]), proxyState) // https://stackexchange.github.io/dnscontrol/js#A
+      )
     }
   }
 
-  // Handle AAAA records
   if (domainData.record.AAAA) {
     for (var aaaa in domainData.record.AAAA) {
       commit[domainData.domain].push(
-        AAAA(domainData.subdomain, domainData.record.AAAA[aaaa], proxyState)
-      );
+        AAAA(domainData.subdomain, domainData.record.AAAA[aaaa], proxyState) // https://stackexchange.github.io/dnscontrol/js#AAAA
+      )
     }
   }
 
-  // Handle CNAME records
   if (domainData.record.CNAME) {
     commit[domainData.domain].push(
-      CNAME(domainData.subdomain, domainData.record.CNAME, proxyState)
-    );
+      CNAME(domainData.subdomain, domainData.record.CNAME + ".", proxyState) // https://stackexchange.github.io/dnscontrol/js#CNAME
+    )
   }
-
-  // Handle MX records
+  
   if (domainData.record.MX) {
     for (var mx in domainData.record.MX) {
       commit[domainData.domain].push(
-        MX(domainData.subdomain, 10, domainData.record.MX[mx] + ".")
-      );
-    }
+        MX(domainData.subdomain, 10, domainData.record.MX[mx] + ".") // https://stackexchange.github.io/dnscontrol/js#CNAME
+      )
+    }  
   }
 
-  // Handle NS records
   if (domainData.record.NS) {
     for (var ns in domainData.record.NS) {
       commit[domainData.domain].push(
-        NS(domainData.subdomain, domainData.record.NS[ns] + ".")
-      );
+        NS(domainData.subdomain, domainData.record.NS[ns] + ".") // https://stackexchange.github.io/dnscontrol/js#NS
+      )
     }
   }
 
-  // Handle TXT records
   if (domainData.record.TXT) {
     for (var txt in domainData.record.TXT) {
       commit[domainData.domain].push(
-        TXT(domainData.subdomain, domainData.record.TXT[txt])
-      );
-    }
-  }
-
-  // Handle CAA records
-  if (domainData.record.CAA) {
-    for (var caa in domainData.record.CAA) {
-      var caaRecord = domainData.record.CAA[caa];
-      commit[domainData.domain].push(
-        CAA(domainData.subdomain, caaRecord.flags, caaRecord.tag, caaRecord.value)
-      );
-    }
-  }
-
-  // Handle SRV records
-  if (domainData.record.SRV) {
-    for (var srv in domainData.record.SRV) {
-      var srvRecord = domainData.record.SRV[srv];
-      commit[domainData.domain].push(
-        SRV(domainData.subdomain, srvRecord.priority, srvRecord.weight, srvRecord.port, srvRecord.target + ".")
-      );
-    }
-  }
-
-  // Handle PTR records
-  if (domainData.record.PTR) {
-    for (var ptr in domainData.record.PTR) {
-      commit[domainData.domain].push(
-        PTR(domainData.subdomain, domainData.record.PTR[ptr] + ".")
-      );
+        TXT(domainData.subdomain, domainData.record.TXT[txt]) // https://stackexchange.github.io/dnscontrol/js#TXT
+      )
     }
   }
 }
 
-// Commit all DNS records
 for (var domainName in commit) {
   D(domainName, regNone, providerCf, commit[domainName]);
 }
