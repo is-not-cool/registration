@@ -1,35 +1,32 @@
 name: Publish
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - "domains/**"
-      - ".github/workflows/publish.yml"
-      - "dnsconfig.js"
-  workflow_dispatch:
+    push:
+        branches: [main]
+        paths:
+            - "domains/**"
+            - ".github/workflows/publish.yml"
+            - "dnsconfig.js"
+
+    workflow_dispatch:
 
 concurrency:
-  group: ${{ github.ref }}-publish
-  cancel-in-progress: false
+    group: ${{ github.ref }}-publish
+    cancel-in-progress: false
 
 jobs:
-  dns:
-    name: DNS
-    runs-on: ubuntu-latest
+    dns:
+        name: DNS
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
 
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+            - run: echo '{"cloudflare":{"TYPE":"CLOUDFLAREAPI","apitoken":"$CLOUDFLARE_API_TOKEN"}}' > ./creds.json
 
-      - name: Create Cloudflare credentials file
-        run: |
-          echo '{"cloudflare": {"TYPE": "CLOUDFLAREAPI", "accountid": "$CF_ACCOUNT_ID", "apitoken": "$CF_API_TOKEN"}}' > ./creds.json
-      - name: Install DNSControl
-        uses: is-cool-me/dnscontrol-action@v4.11.0
-
-      - name: Publish DNS Records
-        run: dnscontrol push
-        env:
-          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
-          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+            - name: Publish
+              uses: is-cool-me/dnscontrol-action@v4.11.0
+              env:
+                  CLOUDFLARE_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+              with:
+                  args: push
+                  config_file: "dnsconfig.js"
