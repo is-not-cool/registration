@@ -1,5 +1,5 @@
 var regNone = NewRegistrar("none");
-var providerCF = DnsProvider(NewDnsProvider("cloudflareapi"));
+var providerCF = DnsProvider(NewDnsProvider("cloudflare"));
 
 function getDomainsList(filesPath) {
     var result = [];
