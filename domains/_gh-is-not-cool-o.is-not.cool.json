@@ -10,7 +10,7 @@
     },
 
     "record": {
-        "TXT": "bc9be91276"
+        "TXT": ["bc9be91276"]
     },
 
     "proxied": false
