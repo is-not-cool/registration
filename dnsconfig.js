@@ -57,7 +57,7 @@ for (var idx in domains) {
   // Handle CNAME records
   if (domainData.record.CNAME) {
     commit[domainData.domain].push(
-      CNAME(domainData.subdomain, domainData.record.CNAME + ".", proxyState)
+      CNAME(domainData.subdomain, domainData.record.CNAME, proxyState)
     );
   }
 
