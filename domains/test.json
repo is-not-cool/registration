@@ -1,11 +1,14 @@
 {
-  "owner": {
-    "username": "CuteDog5695",
-    "email": "",
-    "discord": "716306888492318790"
-  },
-  "record": {
-    "CNAME": "edge.redirect.pizza"
-  },
-  "proxied": false
+    "domain": "is-not.cool",
+    "subdomain": "test",
+
+    "owner": {
+        "email": "cutedog5695@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "edge.redirect.pizza"
+    },
+
+    "proxied": false
 }
