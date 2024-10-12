@@ -1,0 +1,19 @@
+{
+    "description": "Root file",
+
+    "domain": "is-not.cool",
+    "subdomain": "@",
+
+    "owner": {
+        "repo": "https://github.com/is-not-cool/registration",
+        "email": ""
+    },
+
+    "record": {
+        "A": ["172.66.47.94", "172.66.44.162"],
+        "MX": ["mx.zoho.com", "mx2.zoho.com", "mx3.zoho.com"],
+        "TXT": ["v=spf1 include:_spf.mx.cloudflare.net include:zohomail.com ~all"]
+    },
+
+    "proxied": false
+}

@@ -1,0 +1,17 @@
+{
+    "description": "Root file",
+
+    "domain": "is-not.cool",
+    "subdomain": "zmail._domainkey",
+
+    "owner": {
+        "repo": "https://github.com/is-not-cool/registration",
+        "email": ""
+    },
+
+    "record": {
+        "TXT": ["v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDc7dK0AXE/TriA7HrfFLWr4p7U4waKaZvgJq67yOO1UFQ/PYeP0axMvyZMGSacR3TqmcAv8xIHOBQ47O0gNMFsR9FGoWnba2gOvaDPJG/ZDf6vzuUjvjKIUs2HAbIf7grAfsHbvrTrznhUh2bK+IpE0lKMMJZCW1bBKuwi4Ig/JwIDAQAB"]
+    },
+
+    "proxied": false
+}

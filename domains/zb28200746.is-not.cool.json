@@ -1,0 +1,16 @@
+{
+    "description": "Root file",
+
+    "domain": "is-not.cool",
+    "subdomain": "zmail._domainkey",
+
+    "owner": {
+        "repo": "https://github.com/is-not-cool/registration",
+        "email": ""
+    },
+
+    "record": {
+        "CNAME": "zmverify.zoho.com"
+    },
+    "proxied": false
+}
