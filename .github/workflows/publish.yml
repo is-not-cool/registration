@@ -21,7 +21,6 @@ jobs:
         steps:
             - uses: actions/checkout@v4
 
-            - name: Add creds.json
             - run: echo '{"cloudflare":{"TYPE":"CLOUDFLAREAPI","apitoken":"$CLOUDFLARE_API_TOKEN"}}' > ./creds.json
 
             - name: Publish
