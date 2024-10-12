@@ -85,6 +85,15 @@ for (var idx in domains) {
       )
     }
   }
+
+  if (domainData.records.SRV) {
+    for (var srv in domainData.records.SRV) {
+      var srvRecord = domainData.records.SRV[srv];
+      commit[domainData.domain].push(
+        SRV(domainData.subdomain, srvRecord.priority, srvRecord.weight, srvRecord.port, srvRecord.target + ".")
+      );
+    }
+  }
 }
 
 for (var domainName in commit) {
