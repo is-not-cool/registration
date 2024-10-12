@@ -43,7 +43,7 @@ for (var idx in domains) {
   if (domainData.record.A) {
     for (var a in domainData.record.A) {
       commit[domainData.domain].push(
-        A(domainData.subdomain, IP(domainData.record.A[a]), proxyState) // https://stackexchange.github.io/dnscontrol/js#A
+        A(domainData.subdomain, IP(domainData.record.A[a]), proxyState)
       )
     }
   }
@@ -51,21 +51,21 @@ for (var idx in domains) {
   if (domainData.record.AAAA) {
     for (var aaaa in domainData.record.AAAA) {
       commit[domainData.domain].push(
-        AAAA(domainData.subdomain, domainData.record.AAAA[aaaa], proxyState) // https://stackexchange.github.io/dnscontrol/js#AAAA
+        AAAA(domainData.subdomain, domainData.record.AAAA[aaaa], proxyState)
       )
     }
   }
 
   if (domainData.record.CNAME) {
     commit[domainData.domain].push(
-      CNAME(domainData.subdomain, domainData.record.CNAME + ".", proxyState) // https://stackexchange.github.io/dnscontrol/js#CNAME
+      CNAME(domainData.subdomain, domainData.record.CNAME + ".", proxyState)
     )
   }
   
   if (domainData.record.MX) {
     for (var mx in domainData.record.MX) {
       commit[domainData.domain].push(
-        MX(domainData.subdomain, 10, domainData.record.MX[mx] + ".") // https://stackexchange.github.io/dnscontrol/js#CNAME
+        MX(domainData.subdomain, 10, domainData.record.MX[mx] + ".")
       )
     }  
   }
@@ -73,7 +73,7 @@ for (var idx in domains) {
   if (domainData.record.NS) {
     for (var ns in domainData.record.NS) {
       commit[domainData.domain].push(
-        NS(domainData.subdomain, domainData.record.NS[ns] + ".") // https://stackexchange.github.io/dnscontrol/js#NS
+        NS(domainData.subdomain, domainData.record.NS[ns] + ".")
       )
     }
   }
@@ -81,14 +81,14 @@ for (var idx in domains) {
   if (domainData.record.TXT) {
     for (var txt in domainData.record.TXT) {
       commit[domainData.domain].push(
-        TXT(domainData.subdomain, domainData.record.TXT[txt]) // https://stackexchange.github.io/dnscontrol/js#TXT
+        TXT(domainData.subdomain, domainData.record.TXT[txt])
       )
     }
   }
 
-  if (domainData.records.SRV) {
-    for (var srv in domainData.records.SRV) {
-      var srvRecord = domainData.records.SRV[srv];
+  if (domainData.record.SRV) {
+    for (var srv in domainData.record.SRV) {
+      var srvRecord = domainData.record.SRV[srv];
       commit[domainData.domain].push(
         SRV(domainData.subdomain, srvRecord.priority, srvRecord.weight, srvRecord.port, srvRecord.target + ".")
       );
