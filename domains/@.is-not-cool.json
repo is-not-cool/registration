@@ -10,7 +10,7 @@
     },
 
     "record": {
-        "CNAME": ["is-not-cool.pages.dev"],
+        "A": ["185.199.108.153", "185.199.109.153", "185.199.110.153", "185.199.110.153"],
         "MX": ["mx.zoho.com", "mx2.zoho.com", "mx3.zoho.com"],
         "TXT": ["v=spf1 include:_spf.mx.cloudflare.net include:zohomail.com ~all"]
     },
