@@ -1,0 +1,17 @@
+{
+    "description": "trollm8's website",
+
+    "domain": "is-not.cool",
+    "subdomain": "trollm8",
+
+    "owner": {
+        "repo": "https://github.com/trollm8/trollm8.xyz",
+        "email": "admin@trollm8.xyz"
+    },
+
+    "record": {
+        "CNAME": "trollmeight.pages.dev"
+    },
+
+    "proxied": false
+}
