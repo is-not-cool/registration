@@ -1,0 +1,17 @@
+{
+    "description": "is-not.cool docs",
+
+    "domain": "is-not.cool",
+    "subdomain": "docs",
+
+    "owner": {
+        "repo": "https://github.com/is-not-cool/docs",
+        "email": ""
+    },
+
+    "record": {
+        "CNAME": "is-not-cool-docs.pages.dev"
+    },
+
+    "proxied": false
+}
