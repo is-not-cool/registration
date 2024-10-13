@@ -1,0 +1,13 @@
+{
+    "domain": "is-not.cool",
+    "subdomain": "cutedog5695",
+    "owner": {
+        "username": "KoopaCode",
+        "email": "contact@koopa.lol",
+        "repo": "https://github.com/KoopaCode/registration/"
+    },
+    "records": {
+        "CNAME": "koopa.lol/bio",
+    },
+    "proxied": true
+}
