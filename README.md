@@ -52,6 +52,8 @@ If you have a technical issue, please join our [discord server!](https://discord
 5. After the Pull Request is merged, DNS should propogate in a moment or 24 hours.
 6. That's all, enjoy your `is-not.cool` domain!
 
+## Documentation
+If you want to take a look into our documentation [go here!](https://docs.is-not.cool)
 
 ### Similar Services
 If you want to find services similar to is-not.cool, please check out [Open Domains](https://github.com/open-domains/register) and [is-a.dev](https://github.com/is-a-dev/register)
