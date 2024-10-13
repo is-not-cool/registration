@@ -12,6 +12,8 @@ If you have any problems, feel free to [open a issue](https://github.com/is-not-
 
 If you have an issue, please send a email to support@is-not.cool.
 
+If you have a technical issue, please join our [discord server!](https://discord.gg/ZtcFe2s7St)
+
 ## Register
 1. Fork the repo.
 2. Make a json file named `example.is-not.cool.json` in the `domains` directory
