@@ -3,7 +3,7 @@
 <p align="center"><strong>is-not.cool</strong> is a goofy domain hosted by <a href="https://github.com/CuteDog5695">CuteDog5695</a> and <a href="https://github.com/trollm8">trollm8</a></p>
 
 <p align="center">
-   <a href="https://discord.gg/pFE2EsHhBZ"><img alt="Discord Server" src="https://invidget.switchblade.xyz/pFE2EsHhBZ"></a>
+   <a href="https://discord.gg/ZtcFe2s7St"><img alt="Discord Server" src="https://invidget.switchblade.xyz/ZtcFe2s7St"></a>
 </p>
 
 
@@ -46,7 +46,7 @@ If you have an issue, please send a email to support@is-not.cool.
 > [!NOTE]
 > Only select the records you need, this is just a example on what all the records we support should be.
 
-4. Make a Pull Request to the repo and wait for it to be merged. If you want it to be merged faster then consider joining [our discord server!](https://discord.gg/pFE2EsHhBZ)
+4. Make a Pull Request to the repo and wait for it to be merged. If you want it to be merged faster then consider joining [our discord server!](https://discord.gg/ZtcFe2s7St)
 5. After the Pull Request is merged, DNS should propogate in a moment or 24 hours.
 6. That's all, enjoy your `is-not.cool` domain!
 
