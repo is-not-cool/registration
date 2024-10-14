@@ -1,0 +1,16 @@
+{
+    "domain": "is-not.cool",
+    "subdomain": "e",
+
+    "owner": {
+        "username": "EducatedSuddenBucket",
+        "email": "educatedsuddenbucket@gmail.com",
+        "repo": "no"
+    },
+
+    "record": {
+        "NS": ["ns1.desec.io", "ns2.desec.org"]
+    },
+
+    "proxied": false
+}
