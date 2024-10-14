@@ -40,21 +40,24 @@ for (var idx in domains) {
     proxyState = proxy.off;
   }
 
-  if (domainData.record.A) {
-    for (var a in domainData.record.A) {
-      commit[domainData.domain].push(
-        A(domainData.subdomain, IP(domainData.record.A[a]), proxyState)
-      )
-    }
+if (domainData.record && domainData.record.A) {
+  for (var a in domainData.record.A) {
+    commit[domainData.domain].push(
+      A(domainData.subdomain, IP(domainData.record.A[a]), proxyState)
+    );
   }
+}
 
-  if (domainData.record.AAAA) {
-    for (var aaaa in domainData.record.AAAA) {
-      commit[domainData.domain].push(
-        AAAA(domainData.subdomain, domainData.record.AAAA[aaaa], proxyState)
-      )
-    }
+if (domainData.record && domainData.record.AAAA) {
+  for (var aaaa in domainData.record.AAAA) {
+    commit[domainData.domain].push(
+      AAAA(domainData.subdomain, domainData.record.AAAA[aaaa], proxyState)
+    );
   }
+}
+
+
+
 
   if (domainData.record.CNAME) {
     commit[domainData.domain].push(
