@@ -1,0 +1,21 @@
+{
+    "domain": "is-not.cool",
+    "subdomain": "katz",
+
+    "owner": {
+        "username": "Bananalolok",
+        "email": "",
+        "repo": "Bananalolok/registration"
+    },
+
+    "record": {
+      "A": [
+        "34.120.54.55"
+      ],
+      "AAAA": [
+        "2600:1901:0:6d85::"
+      ]
+    },
+
+    "proxied": false
+}
