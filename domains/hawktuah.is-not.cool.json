@@ -1,0 +1,17 @@
+{
+    "description": "hawk tuah is awful",
+
+    "domain": "is-not.cool",
+    "subdomain": "hawktuah",
+
+    "owner": {
+        "repo": "https://github.com/is-not-cool/registration",
+        "email": ""
+    },
+
+    "record": {
+        "CNAME": "edge.redirect.pizza"
+    },
+
+    "proxied": false
+}
