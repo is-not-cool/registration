@@ -1,0 +1,16 @@
+{
+    "description": "Aternos Domain for myself",
+    "domain": "is-not.cool",
+    "subdomain": "sewtmc",
+
+    "owner": {
+        "username": "SkyExploreWasTaken",
+        "email": "contact@sewt.is-a.dev"
+    },
+
+    "record": {
+        "NS": ["galileo.aternos.org", "columbus.aternos.org"]
+    },
+
+    "proxied": false
+}
