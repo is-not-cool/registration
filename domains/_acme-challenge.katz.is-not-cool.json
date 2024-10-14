@@ -2,7 +2,7 @@
     "description": "deno verification",
 
     "domain": "is-not.cool",
-    "subdomain": "yoursubdomain",
+    "subdomain": "_acme-challenge.katz",
 
     "owner": {
        "username": "Bananalolok",
@@ -11,7 +11,7 @@
     },
 
     "record": {
-        "CNAME": "77c60266e3d311053d5b2fe1._acme.deno.dev"
+        "CNAME": "9cdbff884f1cab181fc1da1f._acme.deno.dev"
     },
 
     "proxied": false
