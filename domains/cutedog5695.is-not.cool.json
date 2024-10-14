@@ -1,8 +1,6 @@
 {
-    "description": "Testing purposes!",
-
     "domain": "is-not.cool",
-    "subdomain": "test",
+    "subdomain": "cutedog5695",
 
     "owner": {
         "repo": "https://github.com/is-not-cool/registration",
