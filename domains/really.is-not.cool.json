@@ -1,0 +1,15 @@
+{
+    "domain": "is-not.cool",
+    "subdomain": "ukriu",
+
+    "owner": {
+        "username": "ukriu",
+        "email": "notcool@ukriu.com"
+    },
+
+    "record": {
+        "CNAME": "ukriu.pages.dev"
+    },
+
+    "proxied": true
+}
