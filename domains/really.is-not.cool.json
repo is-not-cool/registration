@@ -8,8 +8,8 @@
     },
 
     "record": {
-        "CNAME": "ukriu.pages.dev"
+        ["CNAME": "ukriu.pages.dev"]
     },
 
-    "proxied": true
+    "proxied": false
 }
