@@ -29,7 +29,7 @@ If you have a technical issue, please join our [discord server!](https://discord
         "repo": "yourrepohere"
     },
 
-    "records": {
+    "record": {
         "A": ["1.1.1.1", "1.0.0.1"],
         "AAAA": ["2606:4700:4700::1111", "2606:4700:4700::1001"],
         "CNAME": "example.com",
