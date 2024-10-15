@@ -11,5 +11,5 @@
         "CNAME": "ukriu.pages.dev"
     },
 
-    "proxied": true
+    "proxied": false
 }
