@@ -1,7 +1,7 @@
 {
-    "description": "Aternos Domain for myself",
+    "description": "My main website",
     "domain": "is-not.cool",
-    "subdomain": "sewtmc",
+    "subdomain": "sewt",
 
     "owner": {
         "username": "SkyExploreWasTaken",
@@ -10,7 +10,7 @@
     },
 
     "record": {
-        "NS": ["galileo.aternos.org", "columbus.aternos.org"]
+        "CNAME": "sewt-website.onrender.com"
     },
 
     "proxied": false
