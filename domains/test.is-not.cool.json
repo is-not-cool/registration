@@ -1,0 +1,15 @@
+{
+    "domain": "is-not.cool",
+    "subdomain": "test",
+
+    "owner": {
+        "username": "CuteDog5695",
+        "email": "cutedog5695@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "mainsite-qf7r.onrender.com"
+    },
+
+    "proxied": false
+}
