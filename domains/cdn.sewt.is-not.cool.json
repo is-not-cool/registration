@@ -1,0 +1,17 @@
+{
+    "description": "My cdn website",
+    "domain": "is-not.cool",
+    "subdomain": "cdn.sewt",
+
+    "owner": {
+        "username": "SkyExploreWasTaken",
+        "email": "contact@sewt.is-a.dev",
+        "discord": "skyexplorewastaken"
+    },
+
+    "record": {
+        "CNAME": "sewt-host-website.onrender.com"
+    },
+
+    "proxied": false
+}
