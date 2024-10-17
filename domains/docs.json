@@ -1,9 +1,5 @@
 {
     "description": "is-not.cool documentation",
-
-    "domain": "is-not.cool",
-    "subdomain": "docs",
-
     "owner": {
         "repo": "https://github.com/is-not-cool/registration",
         "email": ""

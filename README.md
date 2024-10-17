@@ -20,9 +20,6 @@ If you have a technical issue, please join our [discord server!](https://discord
 3. Add the following file format to the json you just made:
 ```json
 {
-    "domain": "is-not.cool",
-    "subdomain": "example",
-
     "owner": {
         "username": "yourgithubusername",
         "email": "hello@example.com",

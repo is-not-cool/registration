@@ -1,11 +1,7 @@
 {
-    "domain": "is-not.cool",
-    "subdomain": "e",
-
     "owner": {
         "username": "EducatedSuddenBucket",
-        "email": "educatedsuddenbucket@gmail.com",
-        "repo": "no"
+        "email": "educatedsuddenbucket@gmail.com"
     },
 
     "record": {

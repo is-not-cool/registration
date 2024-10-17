@@ -1,9 +1,5 @@
 {
     "description": "Root file",
-
-    "domain": "is-not.cool",
-    "subdomain": "zb28200746",
-
     "owner": {
         "repo": "https://github.com/is-not-cool/registration",
         "email": ""
