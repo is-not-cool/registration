@@ -1,14 +1,11 @@
 {
-    "domain": "is-not.cool",
-    "subdomain": "cutedog5695",
-
     "owner": {
         "username": "CuteDog5695",
         "email": "cutedog5695@gmail.com"
     },
 
     "record": {
-        "CNAME": "edge.redirect.pizza"
+        "CNAME": "mainsite-qf7r.onrender.com"
     },
 
     "proxied": false

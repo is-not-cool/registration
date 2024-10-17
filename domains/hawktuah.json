@@ -1,9 +1,5 @@
 {
     "description": "hawk tuah is awful",
-
-    "domain": "is-not.cool",
-    "subdomain": "hawktuah",
-
     "owner": {
         "repo": "https://github.com/is-not-cool/registration",
         "email": ""

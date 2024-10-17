@@ -1,9 +1,5 @@
 {
     "description": "deno verification",
-
-    "domain": "is-not.cool",
-    "subdomain": "_acme-challenge.katz",
-
     "owner": {
        "username": "Bananalolok",
        "email": "",
