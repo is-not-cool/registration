@@ -29,7 +29,7 @@ var domains = getDomainsList('./domains');
 var commit = {};
 
 for (var idx in domains) {
-  var domainName = "is-not.cool";
+  var domainData = domains[idx].data;
   var subdomainName = domains[idx].name;
   var domainData = domains[idx].data;
   var proxyState = proxy.on; // enabled by default
