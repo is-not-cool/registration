@@ -1,7 +1,6 @@
 var regNone = NewRegistrar("none");
 var providerCf = DnsProvider(NewDnsProvider("cloudflare"));
 
-var rootDomain = 'is-not.cool';
 var proxy = { // https://stackexchange.github.io/dnscontrol/providers/cloudflare
   on: { "cloudflare_proxy": "on" },
   off: { "cloudflare_proxy": "off" }
@@ -30,7 +29,7 @@ var domains = getDomainsList('./domains');
 var commit = {};
 
 for (var idx in domains) {
-  var domainData = domains[idx].data;
+  var domainName = "is-not.cool";
   var subdomainName = domains[idx].name;
   var domainData = domains[idx].data;
   var proxyState = proxy.on; // enabled by default
@@ -100,5 +99,5 @@ for (var idx in domains) {
 }
 
 for (var domainName in commit) {
-  D(rootDomain, regNone, providerCf, commit[domainName]);
+  D(domainName, regNone, providerCf, commit[domainName]);
 }
