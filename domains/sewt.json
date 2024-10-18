@@ -5,10 +5,8 @@
         "email": "contact@sewt.is-a.dev",
         "discord": "skyexplorewastaken"
     },
-
     "record": {
-        "CNAME": "sewt-website.onrender.com"
+        "A": ["82.67.68.228"]
     },
-
-    "proxied": false
+    "proxied": true
 }
