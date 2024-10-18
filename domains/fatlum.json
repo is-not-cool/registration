@@ -1,13 +1,10 @@
 {
     "owner": {
-        "username": "itsFatlum",
-        "email": "",
-        "repo": ""
+        "username": "itsFatlum"
     },
 
     "record": {
         "CNAME": "itsfatlum.github.io"
-        ]
     },
 
     "proxied": false
