@@ -27,7 +27,7 @@ var domains = getDomainsList('./domains');
  * @type {{}}
 */
 
-var commit = {};
+var commit = [];
 
 for (var idx in domains) {
   var subdomainName = domains[idx].name;
@@ -99,5 +99,5 @@ for (var idx in domains) {
 }
 
 for (var domainName in commit) {
-  D(rootDomain, regNone, providerCf, commit[domainName]);
+  D(rootDomain, regNone, providerCf, commit);
 }
