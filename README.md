@@ -16,7 +16,7 @@ If you have a technical issue, please join our [discord server!](https://discord
 
 ## Register
 1. Fork the repo.
-2. Make a json file named `example.is-not.cool.json` in the `domains` directory
+2. Make a json file named `example.json` in the `domains` directory
 3. Add the following file format to the json you just made:
 ```json
 {
