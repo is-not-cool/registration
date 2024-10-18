@@ -7,7 +7,7 @@
     },
 
     "record": {
-        "A": "216.24.57.1"
+        "CNAME": "sewt-website.onrender.com"
     },
 
     "proxied": false
