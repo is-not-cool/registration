@@ -1,0 +1,12 @@
+{
+    "owner": {
+        "username": "SkyExploreWasTaken",
+        "discord": "skyexplorewastaken"
+    },
+
+    "record": {
+        "CNAME": "edge.redirect.pizza"
+    },
+
+    "proxied": false
+}
