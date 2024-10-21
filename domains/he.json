@@ -1,0 +1,12 @@
+{
+    "owner": {
+        "username": "vauth",
+        "email": "ivuxey@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "vauth.github.io"
+    },
+
+    "proxied": false
+}
