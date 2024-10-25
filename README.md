@@ -8,7 +8,7 @@
 
 
 ## Issues
-If you have any problems, feel free to [open a issue](https://github.com/is-not-cool/register/issues/new/choose).
+If you have any problems, feel free to [open an issue](https://github.com/is-not-cool/register/issues/new/choose).
 
 If you have an issue, please send a email to support@is-not.cool.
 
