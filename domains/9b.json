@@ -1,0 +1,13 @@
+{
+    "description":"mah classmatesss",
+    "owner": {
+        "username": "cupglassdev",
+        "email": "iliketylerthecreator+9b@cupglass.is-a.dev"
+    },
+
+    "record": {
+        "NS": ["ns1.desec.io", "ns2.desec.org"]
+    },
+
+    "proxied": false
+}
