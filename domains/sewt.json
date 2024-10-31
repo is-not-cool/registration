@@ -5,7 +5,7 @@
         "discord": "skyexplorewastaken"
     },
     "record": {
-        "A": ["82.67.68.228"]
+        "NS": ["ns1.desec.io", "ns2.desec.org"]
     },
     "proxied": false
 }
