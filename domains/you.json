@@ -1,0 +1,11 @@
+{
+    "description":"Person",
+    "owner": {
+        "username": "thaihung48",
+        "email": "thaihungcf+cool@gmail.com"
+    },
+    "record": {
+        "NS": ["ns1.desec.io", "ns2.desec.org"]
+    },
+    "proxied": false
+}
