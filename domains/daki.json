@@ -1,0 +1,16 @@
+{
+  "repo": "https://github.com/micoms",
+
+  "owner": {
+    "username": "micoms",
+    "email": "macabalimicooz@gmail.com"
+  },
+
+  "target": {
+     "TXT": [
+          "vc-domain-verify=daki.is-not.cool,cfb2c5e5a463077daa0d"
+        ]
+  },
+
+  "proxied": false
+}
