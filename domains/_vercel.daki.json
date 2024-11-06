@@ -4,7 +4,7 @@
         "email": "macabalimicooz@gmail.com"
     },
     "record": {
-        "TXT": ["evc-domain-verify=daki.is-not.cool,cfb2c5e5a463077daa0d"],
+        "TXT": ["vc-domain-verify=daki.is-not.cool,cfb2c5e5a463077daa0d"]
     },
     "proxied": false
 }
