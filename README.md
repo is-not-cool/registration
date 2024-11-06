@@ -46,7 +46,7 @@ If you have a technical issue, please join our [discord server!](https://discord
 > Only select the records you need, this is just a example on what all the records we support should be.
 
 4. Make a Pull Request to the repo and wait for it to be merged. If you want it to be merged faster then consider joining [our discord server!](https://discord.gg/ZtcFe2s7St)
-5. After the Pull Request is merged, DNS should propogate in a moment or 24 hours.
+5. After the Pull Request is merged, DNS should propagate in a moment or 24 hours.
 6. That's all, enjoy your `is-not.cool` domain!
 
 ## Documentation
