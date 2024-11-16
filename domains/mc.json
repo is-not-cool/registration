@@ -1,0 +1,13 @@
+{
+    "description": "Minecraft server",
+    "owner": {
+        "repo": "https://github.com/is-not-cool/registration",
+        "username": "is-not-cool"
+    },
+
+    "record": {
+        "CNAME": "eaeb9496a203657fcf17cb9d5c4a5e4c.ipv4.tcpshield.com"
+    },
+
+    "proxied": false
+}
