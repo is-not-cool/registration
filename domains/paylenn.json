@@ -2,11 +2,10 @@
     "owner": {
         "username": "paylenn",
         "email": "paylenno@gmail.com",
-        "repo": "paylenn/paylenn-github-io"
     },
 
     "record": {
-        "A": ["127.0.0.1", "192.168.1.76"]
+        "CNAME": "paylenn.github.io"
     },
 
     "proxied": false
