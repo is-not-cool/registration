@@ -1,6 +1,6 @@
 <h1 align="center">is-not.cool</h1>
 
-<p align="center"><strong>is-not.cool</strong> is a goofy domain made by <a href="https://github.com/CuteDog5695">CuteDog5695</a> and <a href="https://github.com/trollm8">trollm8</a></p>
+<p align="center"><strong>is-not.cool</strong> is a goofy domain made by <a href="https://github.com/CuteDog5695">CuteDog5695</a> and <a href="https://github.com/trollmeight">trollmeight</a></p>
 
 <p align="center">
    <a href="https://discord.gg/ZtcFe2s7St"><img alt="Discord Server" src="https://invidget.switchblade.xyz/ZtcFe2s7St"></a>
