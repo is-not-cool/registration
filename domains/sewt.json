@@ -1,11 +1,13 @@
 {
-    "description": "My main website",
+    "description": "My main website.",
     "owner": {
         "username": "SkyExploreWasTaken",
         "discord": "skyexplorewastaken"
     },
     "record": {
-        "A": ["82.67.68.228"]
+        "A": ["37.27.51.34"],
+        "AAAA": ["2a01:4f9:3081:399c::4"],
+        "TXT": ["domain-verification=skyexplorewastaken"]
     },
     "proxied": false
 }
