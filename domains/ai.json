@@ -1,0 +1,14 @@
+{
+    "description": "for ai helpful website and project . ",
+    "owner": {
+        "repo": "https://github.com/ramanandkrgupta/",
+        "email": "ramanand@myyahoo.com",
+
+    },
+
+    "record": {
+        "NS": ["aron.ns.cloudflare.com", "decker.ns.cloudflare.com"],
+    },
+
+    "proxied": false
+}
