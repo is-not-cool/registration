@@ -1,0 +1,13 @@
+{
+    "description": "Personal Use",
+    "owner": {
+        "repo": "https://github.com/is-not-cool/registration",
+        "email": ""
+    },
+
+    "record": {
+        "CNAME": "www.hi-res-music.netlify.app"
+    },
+
+    "proxied": false
+}
