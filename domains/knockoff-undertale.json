@@ -1,11 +1,12 @@
 {
+    "description": "knockoff undertale isn't cool!",
+    "description": "knockoff undertale isn't cool!",
     "owner": {
         "username": "trollmeight",
-        "email": "",
-        "repo": "is-not-cool/registration"
+        "discord": "trollm8"
     },
-
     "record": {
         "A": ["108.181.32.77"]
+    },
     "proxied": false
 }
