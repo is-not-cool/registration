@@ -1,0 +1,12 @@
+{
+    "owner": {
+        "username": "itsFatlum",
+        "email": "fatlum@lumi.is-a.dev"   
+    },
+
+    "record": {
+        "CNAME": "itsfatlum.github.io"
+    },
+
+    "proxied": false
+}
