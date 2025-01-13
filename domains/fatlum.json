@@ -5,8 +5,7 @@
     },
 
     "record": {
-        "CNAME": "itsfatlum.github.io",
-        "TXT": ["3b07e6d7926142d04aaf3ab36e63a2"]
+        "CNAME": "itsfatlum.github.io"
     },
 
     "proxied": false
