@@ -1,0 +1,22 @@
+{
+    "owner": {
+        "username": "Ashishkumar448",
+        "email": "ashishkumarjena1437@gmail.com",
+        "repo": "https://github.com/Ashishkumar448/registration"
+    },
+
+    "record": {
+        "A": ["1.1.1.1", "1.0.0.1"],
+        "AAAA": ["2606:4700:4700::1111", "2606:4700:4700::1001"],
+        "CNAME": "example.com",
+        "MX": ["mx1.example.com", "mx2.example.com"],
+        "TXT": ["example_verification=1234567890"],
+        "NS": ["ns1.example.com", "ns2.example.com"],
+        "SRV": [
+            { "priority": 10, "weight": 60, "port": 5060, "target": "sipserver.example.com" },
+            { "priority": 20, "weight": 10, "port": 5061, "target": "sipbackup.example.com" }
+        ]
+    },
+
+    "proxied": false
+}
