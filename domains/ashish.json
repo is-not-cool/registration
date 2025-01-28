@@ -9,12 +9,12 @@
         "A": ["185.199.108.153", "185.199.109.153", "185.199.110.153", "185.199.111.153"],
         "AAAA": ["2606:4700:4700::1111", "2606:4700:4700::1001"],
         "CNAME": "ashishkumar448.github.io",
-        "MX": ["mx1.https://ashishkumar448.github.io/portfolio", "mx2.https://ashishkumar448.github.io/portfolio"],
+        "MX": ["mx1.ashishkumar448.github.io", "mx2.ashishkumar448.github.io"],
         "TXT": ["google-site-verification=abc123def456"],
-        "NS": ["ns1.https://ashishkumar448.github.io/portfolio", "ns2.https://ashishkumar448.github.io/portfolio"],
+        "NS": ["ns1.ashishkumar448.github.io", "ns2.ashishkumar448.github.io"],
         "SRV": [
-            { "priority": 10, "weight": 60, "port": 5060, "target": "sipserver.https://ashishkumar448.github.io/portfolio" },
-            { "priority": 20, "weight": 10, "port": 5061, "target": "sipbackup.https://ashishkumar448.github.io/portfolio" }
+            { "priority": 10, "weight": 60, "port": 5060, "target": "sipserver.ashishkumar448.github.io" },
+            { "priority": 20, "weight": 10, "port": 5061, "target": "sipbackup.ashishkumar448.github.io" }
         ]
     },
 
