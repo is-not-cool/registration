@@ -1,0 +1,15 @@
+{
+    "description": "mcalec.is-not.cool",
+    "repo": "https://github.com/mcalec-dev/mcalec.is-not.cool",
+    "owner": {
+        "username": "mcalec-dev",
+        "email": "hello@mcalec.dev",
+        "discord": "mcalec"
+    },
+    "record": {
+        "CNAME": [
+            "mcalec.dev"
+        ]
+    }
+  "proxied": true
+}
