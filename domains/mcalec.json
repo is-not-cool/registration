@@ -7,9 +7,7 @@
         "discord": "mcalec"
     },
     "record": {
-        "CNAME": [
-            "mcalec.dev"
-        ]
+        "CNAME": "mcalec.dev"
     }
   "proxied": true
 }
