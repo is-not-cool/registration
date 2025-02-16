@@ -2,10 +2,10 @@
   "owner": {
     "username": "arr9ab",
     "email": "arnabpratimsaharia@gmail.com",
-    "repo": "registration"
+    "repo": "https://github.com/arr9ab/arnab.github.io"
   },
   "record": {
-    "A": ["185.27.134.142"]
+        "CNAME": "ralsei122.github.io"
   },
-  "proxied": false
+  "proxied": true
 }
