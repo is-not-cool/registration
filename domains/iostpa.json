@@ -1,0 +1,10 @@
+{
+    "owner": {
+        "username": "iostpa",
+        "twitter": "iostpa"
+    },
+    "record": {
+        "CNAME": "edge.redirect.pizza"
+    },
+    "proxied": false
+}
