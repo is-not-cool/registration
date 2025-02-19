@@ -1,0 +1,13 @@
+{
+    "owner": {
+        "username": "arsenobetaine",
+        "email": "arsenobetaine@gmail.com",
+        "repo": "https://github.com/arsenobetaine/arsenobetaine.is-not.cool"
+    },
+
+    "record": {
+        "TXT": ["dh=33af55e04a8339a7e9cf8d652613114a9dc79c12"],
+    },
+
+    "proxied": false
+}
