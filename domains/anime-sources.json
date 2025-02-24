@@ -1,0 +1,13 @@
+{
+    "description": "Awesome Anime Sources",
+    "owner": {
+        "repo": "https://github.com/TanmoyTheBoT/awesome-anime-sources",
+        "email": ""
+    },
+
+    "record": {
+        "CNAME": "tanmoythebot.github.io"
+    },
+
+    "proxied": false
+}
