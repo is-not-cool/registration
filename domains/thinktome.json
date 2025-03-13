@@ -1,0 +1,13 @@
+{
+    "owner": {
+        "username": "tarunerror",
+        "email": "its.tarun01@gmail.com",
+        "repo": "https://github.com/tarunerror/thinktome"
+    },
+
+    "record": {
+        "CNAME": "thinktome.netlify.app",
+    },
+
+    "proxied": false
+}
