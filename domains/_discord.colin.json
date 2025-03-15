@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "ColinLeDev"
+  },
+  "description": "Discord verification",
+  "records": {
+    "TXT": "dh=e99cd1db35efb12195957ef2589a46290f1332f9"
+  },
+  "proxied": false
+}
