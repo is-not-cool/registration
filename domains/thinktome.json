@@ -6,7 +6,7 @@
     },
 
     "record": {
-        "CNAME": "thinktome.netlify.app",
+        "CNAME": "thinktome.netlify.app"
     },
 
     "proxied": false
