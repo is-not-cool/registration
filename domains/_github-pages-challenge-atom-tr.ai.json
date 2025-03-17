@@ -4,7 +4,7 @@
         "email": "thai.tr@hotmail.com"
     },
     "record": {
-        "TXT": "4d67e0d05dd14d17f83166642b9347"
+        "TXT": ["4d67e0d05dd14d17f83166642b9347"]
     },
 
     "proxied": false
