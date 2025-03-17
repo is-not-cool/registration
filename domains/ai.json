@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "atom-tr",
+    "email": "thai.tr@hotmail.com",
+    "repo": "https://github.com/atom-tr/ai-is-not-cool"
+  },
+  "record": {
+        "CNAME": "atom-tr.github.io"
+  },
+  "proxied": false
+}
