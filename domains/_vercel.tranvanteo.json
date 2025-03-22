@@ -1,0 +1,10 @@
+{
+    "owner": {
+        "username": "tanbaycu",
+        "email": "tanbaycu@gmail.com"
+    },
+    "record": {
+        "TXT": ["vc-domain-verify=tranvanteo.is-not.cool,648d1fd781549ebbc0bc"]
+    },
+    "proxied": false
+}
