@@ -1,0 +1,14 @@
+{
+    "description": "domain for local hosting",
+    "owner": {
+        "username": "hy1lite",
+        "email": "gubinartem2008r@gmail.com",
+        "discord": "mrkrasava"
+    },
+
+    "record": {
+        "NS": ["galileo.aternos.org", "columbus.aternos.org"]
+    },
+
+    "proxied": false
+}
