@@ -7,7 +7,7 @@
     },
 
     "record": {
-        "NS": ["galileo.aternos.org", "columbus.aternos.org"]
+        "NS": ["alina.ns.cloudflare.com", "lee.ns.cloudflare.com"]
     },
 
     "proxied": false
