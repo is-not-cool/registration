@@ -1,0 +1,12 @@
+{
+    "owner": {
+        "username": "iostpa",
+        "twitter": "iostpa"
+    },
+
+    "record": {
+        "CNAME": "cutedog5695test.vercel.app"
+    },
+
+    "proxied": false
+}
