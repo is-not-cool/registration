@@ -1,0 +1,13 @@
+{
+    "description": "Very cool Login, is for dev",
+    "owner": {
+        "repo": "https://github.com/jOaawd/imperfect-secure/tree/main",
+        "email": "theyneverfwmee@gmail.com"
+    },
+
+    "record": {
+        "CNAME": "imperfect.onrender.com"
+    },
+
+    "proxied": true
+}
