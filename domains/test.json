@@ -1,11 +1,11 @@
 {
     "owner": {
-        "username": "CuteDog5695",
-        "email": "cutedog5695@gmail.com"
+        "username": "iostpa",
+        "twitter": "iostpa"
     },
 
     "record": {
-        "CNAME": "mainsite-qf7r.onrender.com"
+        "NS": ["ns1.he.net", "ns2.he.net", "ns3.he.net", "ns4.he.net", "ns5.he.net"]
     },
 
     "proxied": false
