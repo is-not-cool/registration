@@ -55,4 +55,4 @@ If you have a technical issue, please join our [discord server!](https://discord
 If you want to take a look into our documentation [go here!](https://docs.is-not.cool)
 
 ### Similar Services
-If you want to find services similar to is-not.cool, please check out [Open Domains](https://github.com/open-domains/register), [is-a.dev](https://github.com/is-a-dev/register) and [part-of.my.id](https://github.com/partofmyid/register).
+If you want to find services similar to is-not.cool, please check out [Open Domains](https://github.com/open-domains/register), [is-a.dev](https://github.com/is-a-dev/register), [part-of.my.id](https://github.com/partofmyid/register), and [is-truly-a.pro](https://github.com/is-truly-a-pro/register)
