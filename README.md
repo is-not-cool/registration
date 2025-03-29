@@ -6,7 +6,9 @@
    <a href="https://discord.gg/ZtcFe2s7St"><img alt="Discord Server" src="https://invidget.switchblade.xyz/ZtcFe2s7St"></a>
 </p>
 
-
+> [!CAUTION]
+> We currently **DO NOT** support Vercel, Netlify, and other services that requires us to be on the [PSL](https://github.com/publicsuffix/list). _We will apply to be on the list [only if theres high demand](https://publicsuffix.org/submit/#:~:text=We%20will%20generally%20decline%20small%20projects)_, so be patient and invite some of your friends!
+ 
 ## Issues
 If you have any problems, feel free to [open an issue](https://github.com/is-not-cool/register/issues/new/choose).
 
