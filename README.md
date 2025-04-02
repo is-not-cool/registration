@@ -1,31 +1,31 @@
 <h1 align="center">is-not.cool</h1>
 
-<p align="center"><strong>is-not.cool</strong> is a goofy domain made by <a href="https://github.com/iostpa">iostpa</a> and <a href="https://github.com/trollmeight">trollmeight</a></p>
+<p align="center"><strong>is-not.cool</strong> is a goofy domain made by <a href="https://github.com/iostpa">iostpa</a> and <a href="https://github.com/trollmeight">trollmeight</a>.</p>
 
 <p align="center">
    <a href="https://discord.gg/ZtcFe2s7St"><img alt="Discord Server" src="https://invidget.switchblade.xyz/ZtcFe2s7St"></a>
 </p>
 
 > [!CAUTION]
-> We currently **DO NOT** support Vercel, Netlify, and other services that requires us to be on the [PSL](https://github.com/publicsuffix/list). _We will apply to be on the list [only if theres high demand](https://publicsuffix.org/submit/#:~:text=We%20will%20generally%20decline%20small%20projects)_, so be patient and invite some of your friends!
+> We currently **DO NOT** support Vercel, Netlify, and other services that require us to be on the [PSL](https://github.com/publicsuffix/list). _We will apply to be on the list [only if there's high demand](https://publicsuffix.org/submit/#:~:text=We%20will%20generally%20decline%20small%20projects)_, so be patient and invite some of your friends!
  
 ## Issues
 If you have any problems, feel free to [open an issue](https://github.com/is-not-cool/register/issues/new/choose).
 
 If you have an issue, please send a email to support@is-not.cool.
 
-If you have a technical issue, please join our [discord server!](https://discord.gg/ZtcFe2s7St)
+If you have a technical issue, please join our [Discord server](https://discord.gg/ZtcFe2s7St)!
 
 ## Register
 1. Fork the repo.
-2. Make a json file named `example.json` in the `domains` directory
+2. Make a json file named `example.json` in the `domains` directory.
 3. Add the following file format to the json you just made:
 ```json
 {
     "owner": {
-        "username": "yourgithubusername",
+        "username": "your-github-username",
         "email": "hello@example.com",
-        "repo": "yourrepohere"
+        "repo": "your-repository-link-here"
     },
 
     "record": {
@@ -45,14 +45,14 @@ If you have a technical issue, please join our [discord server!](https://discord
 }
 ```
 > [!NOTE]
-> Only select the records you need, this is just a example on what all the records we support should be.
+> Only select the records you need, this is just an example of all the records we support.
 
-4. Make a Pull Request to the repo and wait for it to be merged. If you want it to be merged faster then consider joining [our discord server!](https://discord.gg/ZtcFe2s7St)
-5. After the Pull Request is merged, DNS should propagate in a moment or 24 hours.
-6. That's all, enjoy your `is-not.cool` domain!
+4. Make a pull request to the repo and wait for it to be merged. If you want it to be merged faster then consider joining [our Discord server](https://discord.gg/ZtcFe2s7St)!
+5. After the pull request is merged, the DNS records should propagate within 24 hours.
+6. That's all, enjoy your `is-not.cool` subdomain!
 
 ## Documentation
-If you want to take a look into our documentation [go here!](https://docs.is-not.cool)
+Our documentation is available [here](https://docs.is-not.cool)!
 
 ### Similar Services
-If you want to find services similar to is-not.cool, please check out [Open Domains](https://github.com/open-domains/register), [is-a.dev](https://github.com/is-a-dev/register), [part-of.my.id](https://github.com/partofmyid/register), and [is-truly-a.pro](https://github.com/is-truly-a-pro/register)
+If you want to find services that are similar to is-not.cool, please check out [Open Domains](https://github.com/open-domains/register), [is-a.dev](https://github.com/is-a-dev/register), [part-of.my.id](https://github.com/partofmyid/register), and [is-truly-a.pro](https://github.com/is-truly-a-pro/register).
