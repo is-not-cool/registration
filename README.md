@@ -7,7 +7,7 @@
 </p>
 
 > [!CAUTION]
-> We currently **DO NOT** support Vercel, Netlify, and other services that require us to be on the [PSL](https://github.com/publicsuffix/list). _We will apply to be on the list [only if there's high demand](https://publicsuffix.org/submit/#:~:text=We%20will%20generally%20decline%20small%20projects)_, so be patient and invite some of your friends!
+> We do not support Vercel or Cloudflare at the moment since we are not on the PSL. 
  
 ## Issues
 If you have any problems, feel free to [open an issue](https://github.com/is-not-cool/register/issues/new/choose).
