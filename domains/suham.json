@@ -2,12 +2,11 @@
     "owner": {
         "username": "suhamofalltrades",
         "email": "suhamofalltrades@gmail.com",
-        "repo": "suhamofalltrades.github.io/registration"
+        "repo": "https://github.com/suhamofalltrades/registration"
     },
 
     "record": {
         "CNAME": "suhamofalltrades.github.io",
-        ]
     },
 
     "proxied": false
