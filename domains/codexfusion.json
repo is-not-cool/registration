@@ -1,0 +1,13 @@
+{
+    "owner": {
+        "username": "Johndevils",
+        "email": "los7phantom@duck.com",
+        "repo": "https://github.com/Johndevils/digitalera.io"
+    },
+
+    "record": {
+        "CNAME": "https://johndevils.github.io/digitalera.io/"
+    },
+
+    "proxied": false
+}
