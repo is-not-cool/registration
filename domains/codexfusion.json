@@ -6,7 +6,7 @@
     },
 
     "record": {
-        "CNAME": "https://johndevils.github.io/digitalera.io/"
+        "CNAME": "johndevils.github.io"
     },
 
     "proxied": false
