@@ -1,0 +1,11 @@
+{
+    "owner": {
+        "username": "amedott",
+        "repo": "https://github.com/amedott/amedott.github.io"
+    },
+
+    "record": {
+        "CNAME": "amedott.github.io"
+    },
+    "proxied": false
+}
