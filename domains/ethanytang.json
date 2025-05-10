@@ -1,0 +1,13 @@
+{
+    "owner": {
+        "username": "ethanytangcodes",
+        "email": "etnantytang11@gmail.com",
+        "repo": "github.com/ethanytangcodes/ethanytangcodes.github.io"
+    },
+
+    "record": {
+        "CNAME": "https://ethanytangcodes.github.io",
+    },
+
+    "proxied": false
+}
