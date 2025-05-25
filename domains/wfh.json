@@ -1,0 +1,12 @@
+{
+    "owner": {
+        "username": "willi-felix",
+        "email": "demo3546.us@gmail.com"
+    },
+
+    "record": {
+        "NS": ["ns1.desec.io", "ns2.desec.org"]
+    },
+
+    "proxied": false
+}
