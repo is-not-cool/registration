@@ -1,0 +1,13 @@
+{
+    "owner": {
+        "username": "fuloid",
+        "email": "me@fuloid.dev",
+        "repo": "https://github.com/fuloid/that.is-not.cool"
+    },
+
+    "record": {
+        "CNAME": "fuloid.github.io",
+    },
+
+    "proxied": false
+}
