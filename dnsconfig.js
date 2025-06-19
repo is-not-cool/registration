@@ -90,6 +90,15 @@ for (var idx in domains) {
       );
     }
   }
+
+    if (domainData.record.DS) {
+    for (var ds in domainData.record.DS) {
+      var dsRecord = domainData.record.DS[DS];
+      commit[domainData.domain].push(
+        DS(subdomainName, dsRecord.key_tag, dsRecord.algorithm, dsRecord.digest_type, dsRecord.digest + ".")
+      );
+    }
+  }
 }
 
 for (var domainName in commit) {
