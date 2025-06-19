@@ -6,8 +6,6 @@
    <a href="https://discord.gg/ZtcFe2s7St"><img alt="Discord Server" src="https://invidget.switchblade.xyz/ZtcFe2s7St"></a>
 </p>
 
-[//]: <> (pluh)
-   
 > [!CAUTION]
 > We do not support Vercel or Cloudflare at the moment since we are not on the PSL. 
  
