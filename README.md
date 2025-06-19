@@ -38,9 +38,16 @@ If you have a technical issue, please join our [Discord server](https://discord.
         "SRV": [
             { "priority": 10, "weight": 60, "port": 5060, "target": "sipserver.example.com" },
             { "priority": 20, "weight": 10, "port": 5061, "target": "sipbackup.example.com" }
+        ],
+        "DS": [
+            {
+                "key_tag": 2371,
+                "algorithm": 13,
+                "digest_type": 2,
+                "digest": "...."
+            }
         ]
     },
-
     "proxied": false
 }
 ```
