@@ -8,6 +8,14 @@
         "NS": [
             "ns1.pqt.us.kg",
             "ns2.pqt.us.kg"
+        ],
+        "DS": [
+            {
+                "key_tag": 33455,
+                "algorithm": 13,
+                "digest_type": 2,
+                "digest": "FDCA274751465FF90930C617193925DC87B8417CC80B867F6EFB1C3502F8C3B5"
+            }
         ]
     },
     "proxied": false
