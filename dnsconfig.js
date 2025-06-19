@@ -95,7 +95,7 @@ for (var idx in domains) {
     for (var ds in domainData.record.DS) {
       var dsRecord = domainData.record.DS[ds];
       commit[domainData.domain].push(
-        DS(subdomainName, dsRecord.key_tag, dsRecord.algorithm, dsRecord.digest_type, dsRecord.digest + ".")
+        DS(subdomainName, dsRecord.key_tag, dsRecord.algorithm, dsRecord.digest_type, dsRecord.digest)
       );
     }
   }
