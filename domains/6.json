@@ -11,10 +11,10 @@
         ],
         "DS": [
             {
-                "key_tag": 33455,
+                "key_tag": 1082,
                 "algorithm": 13,
                 "digest_type": 2,
-                "digest": "FDCA274751465FF90930C617193925DC87B8417CC80B867F6EFB1C3502F8C3B5"
+                "digest": "8BD202D95C32164B9E0AC9B6AACF6DEA145FC96C9842D6704D18E6D1BEE87B73"
             }
         ]
     },
