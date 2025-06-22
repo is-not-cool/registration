@@ -8,7 +8,8 @@
         "NS": [
             "ns1.pqt.us.kg",
             "ns2.pqt.us.kg",
-            "ns3.pqt.us.kg"
+            "ns3.pqt.us.kg",
+            "ns4.pqt.us.kg"
         ],
         "DS": [
             {
