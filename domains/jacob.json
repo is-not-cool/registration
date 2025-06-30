@@ -1,0 +1,11 @@
+{
+    "description": "jacob.is-not.cool (bcuz im not cool and my name is jacob",
+    "owner": {
+        "username": "jacobrdale"
+    },
+
+    "record": {
+        "NS": ["dell.ns.cloudflare.com", "duke.ns.cloudflare.com"],
+    },
+    "proxied": false
+}
