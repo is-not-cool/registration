@@ -1,0 +1,12 @@
+{
+    "description": "no description found",
+    "owner": {
+      "username": "jacobrdale"
+    },
+
+    "record": {
+        "CNAME": "sig1.dkim.jacob.is-not.cool.at.icloudmailadmin.com"
+    },
+
+    "proxied": false
+}
