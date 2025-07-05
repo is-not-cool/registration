@@ -9,5 +9,5 @@
         "TXT": ["apple-domain=hJpKCJSb8uMiL9uQ", "v=spf1 include:icloud.com ~all"],
         "CNAME": "jacobrdale.github.io"
     },
-    "proxied": false
+    "proxied": true
 }
