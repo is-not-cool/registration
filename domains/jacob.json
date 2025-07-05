@@ -7,7 +7,7 @@
     "record": {
         "MX": ["mx01.mail.icloud.com", "mx02.mail.icloud.com"],
         "TXT": ["apple-domain=hJpKCJSb8uMiL9uQ", "v=spf1 include:icloud.com ~all"],
-        "CNAME": "jacobrdale.github.io"
+        "A": ["216.24.57.252", "216.24.57.4"]
     },
     "proxied": true
 }
