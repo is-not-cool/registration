@@ -5,7 +5,7 @@
     },
 
     "record": {
-      "CNAME": "https://nexajs.github.io"
+      "CNAME": "nexajs.github.io"
     },
 
     "proxied": false
