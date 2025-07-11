@@ -1,0 +1,12 @@
+{
+    "description": "**INCOMPELETE SITE**",
+    "owner": {
+      "username": "jacobrdale"
+    },
+
+    "record": {
+      "CNAME": "https://nexajs.github.io"
+    },
+
+    "proxied": false
+}
