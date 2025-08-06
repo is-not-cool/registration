@@ -1,0 +1,13 @@
+{
+    "description": "another domain",
+    "owner": {
+        "repo": "https://github.com/whoschip/registration/",
+        "discord": "1317516380500922499"
+    },
+
+    "record": {
+        "CNAME": "whoschip.github.io"
+    },
+
+    "proxied": false
+}
