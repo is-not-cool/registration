@@ -1,6 +1,7 @@
 {
     "description": "another domain",
     "owner": {
+        "username" : "whoschip",
         "repo": "https://github.com/whoschip/registration/",
         "discord": "dmt.chip"
     },
