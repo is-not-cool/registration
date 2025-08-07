@@ -1,0 +1,13 @@
+{
+    "owner": {
+        "username": "win-20xx",
+        "email": "coolguys.dev@gmail.com",
+        "repo": "https://github.com/win-20xx/registration"
+    },
+
+    "record": {
+        "CNAME": "win-20xx.github.io"
+    },
+
+    "proxied": false
+}
