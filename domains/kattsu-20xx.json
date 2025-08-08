@@ -1,0 +1,13 @@
+{
+    "owner": {
+        "username": "kattsu-20xx",
+        "email": "nobita.musi@gmail.com",
+        "repo": "https://github.com/kattsu-20xx/registration"
+    },
+
+    "record": {
+        "CNAME": "kattsu-20xx.github.io"
+    },
+
+    "proxied": false
+}
