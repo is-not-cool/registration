@@ -1,0 +1,12 @@
+{
+    "owner": {
+        "username": "iabhinav-me",
+        "email": "hello@iabhinav.me"
+    },
+
+    "record": {
+        "CNAME": "iabhinav.me"
+    },
+
+    "proxied": false
+}
