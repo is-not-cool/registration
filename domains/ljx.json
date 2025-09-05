@@ -5,7 +5,7 @@
     },
 
     "record": {
-        "CNAME": "ljxx.pages.dev",
+        "A": ["188.114.96.0", "188.114.97.0"],
         "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
         "TXT": ["v=spf1 include:spf.improvmx.com ~all"]
     },
