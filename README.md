@@ -28,7 +28,7 @@ If you have a technical issue, please join our [Discord server](https://discord.
         "repo": "your-repository-link-here"
     },
 
-    "record": {
+    "records": {
         "A": ["1.1.1.1", "1.0.0.1"],
         "AAAA": ["2606:4700:4700::1111", "2606:4700:4700::1001"],
         "CNAME": "example.com",

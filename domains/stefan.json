@@ -4,7 +4,7 @@
         "email": "hi@lungustefan.ro"
     },
 
-    "record": {
+    "records": {
         "NS": ["ns.lungustefan.ro", "ns2.lungustefan.ro", "ns3.lungustefan.ro", "ns4.lungustefan.ro"]
     },
 

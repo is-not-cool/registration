@@ -36,66 +36,66 @@ for (var idx in domains) {
     proxyState = proxy.off;
   }
 
-  if (domainData.record.A) {
-    for (var a in domainData.record.A) {
+  if (domainData.records.A) {
+    for (var a in domainData.records.A) {
       commit[domainData.domain].push(
-        A(subdomainName, IP(domainData.record.A[a]), proxyState)
+        A(subdomainName, IP(domainData.records.A[a]), proxyState)
       )
     }
   }
 
-  if (domainData.record.AAAA) {
-    for (var aaaa in domainData.record.AAAA) {
+  if (domainData.records.AAAA) {
+    for (var aaaa in domainData.records.AAAA) {
       commit[domainData.domain].push(
-        AAAA(subdomainName, domainData.record.AAAA[aaaa], proxyState)
+        AAAA(subdomainName, domainData.records.AAAA[aaaa], proxyState)
       )
     }
   }
 
-  if (domainData.record.CNAME) {
+  if (domainData.records.CNAME) {
     commit[domainData.domain].push(
-      CNAME(subdomainName, domainData.record.CNAME + ".", proxyState)
+      CNAME(subdomainName, domainData.records.CNAME + ".", proxyState)
     )
   }
   
-  if (domainData.record.MX) {
-    for (var mx in domainData.record.MX) {
+  if (domainData.records.MX) {
+    for (var mx in domainData.records.MX) {
       commit[domainData.domain].push(
-        MX(subdomainName, 10, domainData.record.MX[mx] + ".")
+        MX(subdomainName, 10, domainData.records.MX[mx] + ".")
       )
     }  
   }
 
-  if (domainData.record.NS) {
-    for (var ns in domainData.record.NS) {
+  if (domainData.records.NS) {
+    for (var ns in domainData.records.NS) {
       commit[domainData.domain].push(
-        NS(subdomainName, domainData.record.NS[ns] + ".")
+        NS(subdomainName, domainData.records.NS[ns] + ".")
       )
     }
   }
 
-  if (domainData.record.TXT) {
-    for (var txt in domainData.record.TXT) {
+  if (domainData.records.TXT) {
+    for (var txt in domainData.records.TXT) {
       commit[domainData.domain].push(
-        TXT(subdomainName, domainData.record.TXT[txt])
+        TXT(subdomainName, domainData.records.TXT[txt])
       )
     }
   }
 
-  if (domainData.record.SRV) {
-    for (var srv in domainData.record.SRV) {
-      var srvRecord = domainData.record.SRV[srv];
+  if (domainData.records.SRV) {
+    for (var srv in domainData.records.SRV) {
+      var srvRecords = domainData.records.SRV[srv];
       commit[domainData.domain].push(
-        SRV(subdomainName, srvRecord.priority, srvRecord.weight, srvRecord.port, srvRecord.target + ".")
+        SRV(subdomainName, srvRecords.priority, srvRecords.weight, srvRecords.port, srvRecords.target + ".")
       );
     }
   }
 
-    if (domainData.record.DS) {
-    for (var ds in domainData.record.DS) {
-      var dsRecord = domainData.record.DS[ds];
+    if (domainData.records.DS) {
+    for (var ds in domainData.records.DS) {
+      var dsRecords = domainData.records.DS[ds];
       commit[domainData.domain].push(
-        DS(subdomainName, dsRecord.key_tag, dsRecord.algorithm, dsRecord.digest_type, dsRecord.digest)
+        DS(subdomainName, dsRecords.key_tag, dsRecords.algorithm, dsRecords.digest_type, dsRecords.digest)
       );
     }
   }

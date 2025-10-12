@@ -3,7 +3,7 @@
         "username": "GameRoMan",
         "email": "gameromandev@gmail.com"
     },
-    "record": {
+    "records": {
         "CNAME": "gameroman.github.io"
     },
     "proxied": false

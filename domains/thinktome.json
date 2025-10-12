@@ -5,7 +5,7 @@
         "repo": "https://github.com/tarunerror/thinktome"
     },
 
-    "record": {
+    "records": {
         "CNAME": "thinktome.netlify.app"
     },
 

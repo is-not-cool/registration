@@ -4,7 +4,7 @@
         "email": "oshidev@proton.me"
     },
 
-    "record": {
+    "records": {
         "NS": ["ns1.byet.org", "ns2.byet.org", "ns3.byet.org", "ns4.byet.org", "ns5.byet.org"]
 
     },

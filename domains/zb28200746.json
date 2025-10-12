@@ -5,7 +5,7 @@
         "email": ""
     },
 
-    "record": {
+    "records": {
         "CNAME": "zmverify.zoho.com"
     },
     "proxied": false
