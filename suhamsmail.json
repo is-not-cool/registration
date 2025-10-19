@@ -1,0 +1,12 @@
+{
+    "owner": {
+        "username": "suhamofalltrades",
+        "email": "suhamofalltrades@gmail.com",
+        "repo": "https://github.com/suhamofalltrades/registration"
+    },
+
+    "records": {
+        "NS": ["ns1.afraid.org", "ns2.afraid.org", "ns3.afraid.org", "ns4.afraid.org"]
+    },
+    "proxied": false
+}
