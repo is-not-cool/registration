@@ -1,14 +1,12 @@
 {
-    "description": "a personal website that im building to practice/learn html",
     "owner": {
-        "repo": "https://github.com/pxlskye/pxlskye.github.io",
-        "email": "pxlskye.gmail.com",
-        "discord": "1169134069506920499"
+        "username": "heypxl",
+        "email": "hello@example.com",
+        "repo": "pxlskye@gmail.com"
     },
 
-    "record": {
-        "CNAME": "pxlskye.github.io",
+    "records": {
+        "CNAME": "heypxl.github.io",
     },
-
     "proxied": false
 }
