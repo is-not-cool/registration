@@ -1,12 +1,10 @@
 {
-    "description": "mcalec.is-not.cool",
-    "repo": "https://github.com/mcalec-dev/mcalec.is-not.cool",
     "owner": {
         "username": "mcalec-dev",
         "email": "hello@mcalec.dev",
         "discord": "mcalec"
     },
     "records": {
-        "TXT": ["6eb662915251971257eadb6934423c"]
+        "TXT": ["eef534155a4ea8b51b6adbacc55753"]
     }
 }
