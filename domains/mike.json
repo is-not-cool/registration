@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "mikevdberge",
+    "email": "mike.van.den.berge@gmail.com",
+    "repo": "https://github.com/mikevdberge"
+  },
+  "record": {
+    "CNAME": "mikevdberge.is-a.dev"
+  },
+  "proxied": false
+}
