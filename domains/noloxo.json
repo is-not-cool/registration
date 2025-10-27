@@ -1,0 +1,13 @@
+{
+    "description": "(( quick note : I want it to reflect THIS SPECIFIC url ( kep the whole thing ) https://noloxoyt.github.io/all-my-projects/  : ok  https://noloxoyt.github.io/  : no ))",
+    "owner": {
+        "repo": "https://github.com/NoloxoYT/all-my-projects/tree/main",
+        "email": "noloxo@duck.com",
+        "discord": "1379058535274385582"
+    },
+    "record": {
+        "CNAME": "https://noloxoyt.github.io/all-my-projects"
+        ]
+    },
+    "proxied": false
+}
