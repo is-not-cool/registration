@@ -1,0 +1,27 @@
+{
+    "owner": {
+        "username": "xtoazt",
+        "email": "ur.toazt@gmail.com",
+        "repo": "https://github.com/xtoazt/clay"
+    },
+
+    "records": {
+        "A": ["185.199.108.153", "185.199.109.153", "185.199.110.153", "185.199.111.153"],
+        "CNAME": "xtoazt.github.io",
+        "TXT": ["_github-pages-challenge-xtoazt.clay"],
+
+        "SRV": [
+            { "priority": 10, "weight": 60, "port": 5060, "target": "sipserver.example.com" },
+            { "priority": 20, "weight": 10, "port": 5061, "target": "sipbackup.example.com" }
+        ],
+        "DS": [
+            {
+                "key_tag": 2371,
+                "algorithm": 13,
+                "digest_type": 2,
+                "digest": "...."
+            }
+        ]
+    },
+    "proxied": false
+}
