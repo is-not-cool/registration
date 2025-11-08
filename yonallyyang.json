@@ -1,0 +1,12 @@
+{
+    "owner": {
+        "username": "yonallyyang",
+        "email": "yyy333000@outlook.com",
+        "repo": "https://github.com/yonallyyang/yonallyyang.github.io"
+    },
+    "records": {
+        "CNAME": "yonallyyang.github.io",
+        "TXT": ["owner=yonallyyang", "subdomain=yonallyyang.is-not.cool"]
+    },
+    "proxied": false
+}
