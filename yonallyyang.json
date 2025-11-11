@@ -6,7 +6,7 @@
     },
     "records": {
         "CNAME": "yonallyyang.github.io",
-        "TXT": ["owner=yonallyyang", "subdomain=yonallyyang.is-not.cool"]
+        "TXT": ["owner=yonallyyang", "domain=yonallyyang.is-not.cool"]
     },
     "proxied": false
 }
