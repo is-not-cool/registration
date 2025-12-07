@@ -1,0 +1,29 @@
+{
+    "owner": {
+        "username": "nandhaxd",
+        "email": "nandhaxd@gmail.com",
+        "repo": "nandhaxd/profile"
+    },
+
+    "records": {
+        "A": ["1.1.1.1", "1.0.0.1"],
+        "AAAA": ["2606:4700:4700::1111", "2606:4700:4700::1001"],
+        "CNAME": "nandhaxd.com",
+        "MX": ["mx1.nandhaxd.com", "mx2.nandhaxd.com"],
+        "TXT": ["example_verification=1234567890"],
+        "NS": ["ns1.nandhaxd.com", "ns2.nandhaxd.com"],
+        "SRV": [
+            { "priority": 10, "weight": 60, "port": 5060, "target": "sipserver.nandhaxd.com" },
+            { "priority": 20, "weight": 10, "port": 5061, "target": "sipbackup.nandhaxd.com" }
+        ],
+        "DS": [
+            {
+                "key_tag": 2371,
+                "algorithm": 13,
+                "digest_type": 2,
+                "digest": "...."
+            }
+        ]
+    },
+    "proxied": false
+}
