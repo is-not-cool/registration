@@ -1,0 +1,12 @@
+{
+    "owner": {
+        "username": "centralmacatuba",
+        "email": "centralmacatuba@gmail.com",
+        "repo": "https://github.com/centralmacatuba/centralmacatuba.github.io"
+    },
+
+    "records": {
+        "CNAME": "centralmacatuba.eu.org"
+        ]
+    "proxied": true
+}
