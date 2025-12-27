@@ -5,12 +5,7 @@
     "repo": "https://github.com/attaditya/attaditya.github.io"
   },
   "records": {
-    "CNAME": "attaditya.github.io",
-    "TXT": [
-      "_github-pages-challenge-AttAditya.aditya",
-      "7069753e8bcc75996cb163d09170b4",
-      "_github-pages-challenge-AttAditya.aditya.is-not-cool=7069753e8bcc75996cb163d09170b4"
-    ]
+    "CNAME": "attaditya.github.io"
   },
   "proxied": false
 }
