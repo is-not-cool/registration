@@ -6,7 +6,8 @@
     },
 
     "records": {
-        "CNAME": "centralmacatuba.eu.org"
-        ]
+        "CNAME": "centralmacatuba.eu.org",
+        "NS": ["dns.centralmacatuba.eu.org"]
+    },
     "proxied": true
 }
