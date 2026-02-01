@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "arcreactordev",
+    "email": "04vishal.com@gmail.com",
+    "repo": "https://github.com/arcreactordev"
+  },
+  "records": {
+    "CNAME": "vishalxdev.vercel.app"
+  },
+  "proxied": false
+}
