@@ -17,7 +17,7 @@ If you have an issue, please send a email to support@is-not.cool.
 If you have a technical issue, please join our [Discord server](https://discord.gg/ZtcFe2s7St)!
 
 ## Register
-1. Fork the repo.
+1. Fork [the repository](https://github.com/is-not-cool/registration/fork).
 2. Make a json file named `example.json` in the `domains` directory.
 3. Add the following file format to the json you just made:
 ```json
