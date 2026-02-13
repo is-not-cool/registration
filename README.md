@@ -18,7 +18,7 @@ If you have a technical issue, please join our [Discord server](https://discord.
 
 ## Register
 1. Fork [the repository](https://github.com/is-not-cool/registration/fork).
-2. Make a json file named `example.json` in the `domains` directory.
+2. Make a json file in the `domains` directory, for example `example.json`.
 3. Add the following file format to the json you just made:
 ```json
 {
@@ -54,7 +54,7 @@ If you have a technical issue, please join our [Discord server](https://discord.
 > [!NOTE]
 > Only select the records you need, this is just an example of all the records we support.
 
-4. Make a pull request to the repo and wait for it to be merged. If you want it to be merged faster then consider joining [our Discord server](https://discord.gg/ZtcFe2s7St)!
+4. Make a pull request to the repo and wait for it to be merged, if you don't know how to make a pull request please read [GitHub's guide](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork). If you want the pull request to be merged faster then consider joining [our Discord server](https://discord.gg/ZtcFe2s7St)!
 5. After the pull request is merged, the DNS records should propagate within 24 hours.
 6. That's all, enjoy your `is-not.cool` subdomain!
 
@@ -62,4 +62,4 @@ If you have a technical issue, please join our [Discord server](https://discord.
 Our documentation is available [here](https://docs.is-not.cool)!
 
 ### Similar Services
-If you want to find services that are similar to is-not.cool, please check out [Open Domains](https://github.com/open-domains/register), [is-a.dev](https://github.com/is-a-dev/register), [part-of.my.id](https://github.com/partofmyid/register), and [is-truly-a.pro](https://github.com/is-truly-a-pro/register).
+If you want to find services that are similar to is-not.cool, please check out [Open Domains](https://github.com/open-domains/register), [is-a.dev](https://github.com/is-a-dev/register), [part-of.my.id](https://github.com/partofmyid/register) and any other subdomain provider available to the world.
