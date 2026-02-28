@@ -1,0 +1,12 @@
+{
+    "owner": {
+        "username": "thisisanalthowcool",
+        "email": "thisisanalthowcool@gmail.com",
+        "repo": "https://github.com/jkjkjiin/Space-proxy"
+    },
+
+    "records": {
+        "A": ["51.222.206.184"]
+    },
+    "proxied": false
+}
