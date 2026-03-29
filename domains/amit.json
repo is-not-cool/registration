@@ -3,7 +3,8 @@
     "username": "notamitgamer"
   },
   "records": {
-        "CNAME": "aranag-main-page.web.app"
+        "CNAME": "amit-is-not-cool.web.app",
+        "TXT": ["hosting-site=amit-is-not-cool"]
   },
   "proxied": true
 }
