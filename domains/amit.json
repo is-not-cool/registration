@@ -1,8 +1,15 @@
 {
   "owner": {
-    "username": "notamitgamer"
+    "username": "notamitgamer",
+    "x": "notamitgamer",
+    "facebook": "notamitgamer",
+    "discord": "notamitgamer"
   },
   "records": {
-        "CNAME": "amit-is-not-cool.web.app"
-  }
+    "CNAME": "amit-is-not-cool.web.app", 
+    "TXT": [
+      "v=spf1 include:amazonses.com ~all"
+    ]
+  },
+  "proxied": true
 }
