@@ -1,15 +1,8 @@
 {
   "owner": {
-    "username": "notamitgamer",
-    "x": "notamitgamer",
-    "facebook": "notamitgamer",
-    "discord": "notamitgamer"
+    "username": "notamitgamer"
   },
   "records": {
-    "CNAME": "amit-is-not-cool.web.app", 
-    "TXT": [
-      "hosting-site=amit-is-not-cool"
-    ]
-  },
-  "proxied": true
+        "CNAME": "amit-is-not-cool.web.app"
+  }
 }
