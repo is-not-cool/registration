@@ -8,7 +8,7 @@
   "records": {
     "CNAME": "amit-is-not-cool.web.app", 
     "TXT": [
-      "v=spf1 include:amazonses.com ~all"
+      "hosting-site=amit-is-not-cool"
     ]
   },
   "proxied": true
