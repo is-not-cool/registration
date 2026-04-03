@@ -4,6 +4,5 @@
   },
   "records": {
         "CNAME": "amit-is-not-cool.web.app"
-  },
-  "proxied": true
+  }
 }
