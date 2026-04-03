@@ -3,6 +3,9 @@
     "username": "notamitgamer"
   },
   "records": {
-        "CNAME": "amit-is-not-cool.web.app"
-  }
+        "A": ["199.36.158.100", "104.21.4.202", "172.67.132.107"],
+        "AAAA": ["2606:4700:3033::6815:4ca", "2606:4700:3037::ac43:846b"],
+        "TXT": ["hosting-site=amit-is-not-cool"]
+  },
+  "proxied": false
 }
