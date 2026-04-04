@@ -3,8 +3,7 @@
     "username": "notamitgamer"
   },
   "records": {
-        "CNAME": "api-amit-is-nnot-cool.web.app",
-        "TXT": ["hosting-site=api-amit-is-nnot-cool"]
+        "CNAME": "api-amit-is-nnot-cool.web.app"
   },
   "proxied": false
 }
