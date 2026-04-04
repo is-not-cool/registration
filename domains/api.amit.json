@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "notamitgamer"
+  },
+  "records": {
+        "CNAME": "api-amit-is-nnot-cool.web.app",
+        "TXT": ["hosting-site=api-amit-is-nnot-cool"]
+  },
+  "proxied": false
+}
