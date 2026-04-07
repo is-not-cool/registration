@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "notamitgamer"
+  },
+  "records": {
+        "CNAME": "localtestdomain.web.app"
+  },
+  "proxied": false
+}
