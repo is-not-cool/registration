@@ -2,8 +2,7 @@
   "owner": {
     "username": "notamitgamer"
   },
-  "records": {
-        "CNAME": "localtestdomain.web.app"
-  },
-  "proxied": false
+  "record": {
+    "CNAME": "test.amitdutta4255.workers.dev"
+  }
 }
