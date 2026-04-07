@@ -4,6 +4,5 @@
   },
   "record": {
     "CNAME": "test.amitdutta4255.workers.dev"
-  },
-  "proxied": false  
+  }
 }
