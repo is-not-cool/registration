@@ -1,0 +1,12 @@
+{
+    "description": "url record testing yes",
+    "owner": {
+        "email": "admin@trollm8.xyz"
+    },
+
+    "records": {
+        "URL": "trollmeight.me"
+    },
+
+    "proxied": true
+}
