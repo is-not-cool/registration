@@ -1,0 +1,12 @@
+{
+    "owner": {
+        "username": "Poochley123",
+        "email": "poochley123@proton.me"
+    },
+
+    "records": {
+        "CNAME": "wisp-server-link.onrender.com"
+    },
+
+    "proxied": false
+}
