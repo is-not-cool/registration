@@ -2,7 +2,7 @@ var regNone = NewRegistrar("none");
 var providerCf = DnsProvider(NewDnsProvider("cloudflare"));
 
 var rootDomain = 'is-not.cool';
-var proxy = { // https://stackexchange.github.io/dnscontrol/providers/cloudflare
+var proxy = {
   on: { "cloudflare_proxy": "on" },
   off: { "cloudflare_proxy": "off" }
 }
@@ -13,7 +13,6 @@ function getDomainsList(filesPath) {
 
   for (var i = 0; i < files.length; i++) {
     var name = files[i].split("/").pop().replace(/\.json$/, "");
-
     result.push({ name: name, data: require(files[i]) });
   }
 
@@ -26,7 +25,7 @@ var commit = [];
 for (var idx in domains) {
   var subdomainName = domains[idx].name;
   var domainData = domains[idx].data;
-  var proxyState = proxy.off; // disabled by default
+  var proxyState = proxy.off;
 
   if (!commit[domainData.domain]) {
     commit[domainData.domain] = [];
@@ -57,13 +56,19 @@ for (var idx in domains) {
       CNAME(subdomainName, domainData.records.CNAME + ".", proxyState)
     )
   }
+
+  if (domainData.records.URL) {
+    commit[domainData.domain].push(
+      CNAME(subdomainName, domainData.records.URL.replace(/^https?:\/\//, '') + ".", proxyState)
+    )
+  }
   
   if (domainData.records.MX) {
     for (var mx in domainData.records.MX) {
       commit[domainData.domain].push(
         MX(subdomainName, 10, domainData.records.MX[mx] + ".")
       )
-    }  
+    }
   }
 
   if (domainData.records.NS) {
@@ -73,11 +78,19 @@ for (var idx in domains) {
       )
     }
   }
-
   if (domainData.records.TXT) {
     for (var txt in domainData.records.TXT) {
       commit[domainData.domain].push(
         TXT(subdomainName, domainData.records.TXT[txt])
+      )
+    }
+  }
+
+  if (domainData.records.URL) {
+    for (var url in domainData.records.URL) {
+      var urlRecord = domainData.records.URL[url];
+      commit[domainData.domain].push(
+        URLFWD(subdomainName, urlRecord.target, urlRecord.code || 302)
       )
     }
   }
@@ -91,7 +104,7 @@ for (var idx in domains) {
     }
   }
 
-    if (domainData.records.DS) {
+  if (domainData.records.DS) {
     for (var ds in domainData.records.DS) {
       var dsRecords = domainData.records.DS[ds];
       commit[domainData.domain].push(
@@ -102,5 +115,5 @@ for (var idx in domains) {
 }
 
 for (var domainName in commit) {
-  D(rootDomain, regNone, providerCf, commit);
+  D(domainName, regNone, providerCf, commit[domainName]);
 }
