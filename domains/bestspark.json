@@ -1,0 +1,14 @@
+{
+    "description": "Basically a simple games website.",
+    "owner": {
+        "repo": "https://github.com/BestSpark687090/BestSpark687090",
+        "email": "bestspark687090@gmail.com",
+        "discord": "bestspark687090"
+    },
+
+    "record": {
+        "A": ["15.204.67.205"],
+    },
+
+    "proxied": true
+}
