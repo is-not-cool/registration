@@ -5,7 +5,7 @@
     },
 
     "records": {
-        "A": ["128.204.223.115"]
+        "CNAME": "edges.redirect.pizza"
     },
     "proxied": false
 }

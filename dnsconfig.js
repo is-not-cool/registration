@@ -97,23 +97,6 @@ for (var idx in domains) {
       commit[domainData.domain].push(
         DS(subdomainName, dsRecords.key_tag, dsRecords.algorithm, dsRecords.digest_type, dsRecords.digest)
       );
-      
-    if (domainData.records.URL) {
-        records.push(
-          A(subdomainName, IP("192.0.2.1"), CF_PROXY_ON)
-        );
-
-        for (var url in domainData.records.URL) {
-          var urlRecord = domainData.records.URL[url];
-          records.push(
-            CF_REDIRECT(
-              subdomainName,
-              urlRecord.target,
-              urlRecord.code || 302
-      )
-          );
-        }
-      }
     }
   }
 }
