@@ -3,7 +3,7 @@
     "username": "TyGu1"
   },
   "records": {
-    "A": ["92.208.100.224"]
+    "AAAA": ["2a02:8071:67c1:2b80::9ecb"]
   },
   "proxied": false
 }
