@@ -4,7 +4,15 @@
         "twitter": "iostpa"
     },
     "records": {
-        "NS": ["kiki.bunny.net", "coco.bunny.net"]
+        "NS": ["kiki.bunny.net", "coco.bunny.net"],
+        "DS": [
+            {
+                "key_tag": 56225,
+                "algorithm": 13,
+                "digest_type": 2,
+                "digest": "A2217783B395E0738B3A06CC1C9383B496A1FFAC9EAC39D31ABB55688C89D4E1"
+            }
+        ]
     },
     "proxied": false
 }
