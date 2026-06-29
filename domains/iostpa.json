@@ -4,7 +4,7 @@
         "twitter": "iostpa"
     },
     "records": {
-        "CNAME": "edge.redirect.pizza"
+        "NS": ["kiki.bunny.net", "coco.bunny.net"]
     },
     "proxied": false
 }
