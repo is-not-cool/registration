@@ -5,7 +5,7 @@
         "repo": "https://github.com/jokoarynt/is-not-cool"
     },
     "records": {
-        "TXT": ["RP=u9fxkdsj-1115739242"]
+        "CNAME": "coffee.joko.my.id"
     },
     "proxied": false
 }
