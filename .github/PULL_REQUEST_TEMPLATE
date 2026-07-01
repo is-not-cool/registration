@@ -1,0 +1,9 @@
+# Requirements
+- [ ] I have **read** and **understood** the Terms of Service. 
+- [ ] I understand my domain will be removed if I violate the Terms of Service.
+- [ ] My file is in the `domains` directory and has the `.json` file extension.
+- [ ] My file's name is lowercased and alphanumeric. 
+- [ ] My website is **reachable** and **completed**. 
+- [ ] I have provided sufficient contact information in the `owner` key. 
+
+# Website Preview
