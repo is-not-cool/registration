@@ -1,0 +1,12 @@
+{
+    "description":"transphobia isn't cool! before this gets propagated if you want to see my site check tanjim.org:4589",
+    "owner": {
+        "username": "itzmetanjim",
+        "email": "contact@tanjim.org"
+    },
+
+    "records": {
+        "CNAME": "matrix.tanjim.org"
+    },
+    "proxied": false
+}
