@@ -4,7 +4,15 @@
         "twitter": "iostpa"
     },
     "records": {
-        "NS": ["ns1.desec.io", "ns2.desec.org"]
+        "NS": ["ns1.desec.io", "ns2.desec.org"],
+        "DS": [
+            {
+                "key_tag": 48268,
+                "algorithm": 13,
+                "digest_type": 2,
+                "digest": "3c5bf9ee4c7a0a174f2c41d53e3e0fd2c93c315407da4f5275adae1441eab03b"
+            }
+        ]
     },
     "proxied": false
 }
