@@ -7,9 +7,6 @@
 </p>
 
 > [!CAUTION]
-> We do not support Vercel or Cloudflare at the moment since we are not on the PSL.
-
-> [!CAUTION]
 > As of May 3rd, 2026, proxy sites and game sites are no longer allowed. Websites made before May 3rd, 2026 are not going to be removed.
  
  
