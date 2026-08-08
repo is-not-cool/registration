@@ -1,0 +1,20 @@
+{
+    "owner": {
+        "username": "MaseDev33",
+        "email": "mase@masecodes.is-a.dev",
+        "repo": "https://github.com/MaseDev33/masecodes.is-not.cool"
+    },
+
+    "records": {
+        "NS": ["ns1.desec.io", "ns2.desec.org"]
+    "DS": [
+            {
+                "key_tag": 36256,
+                "algorithm": 13,
+                "digest_type": 2,
+                "digest": "90a0d74255a4e95200d58d96d21c7360d0685fc4fa6af56e3ced87abbe9fc0b5"
+            }
+        ]
+    },
+    "proxied": false
+}
