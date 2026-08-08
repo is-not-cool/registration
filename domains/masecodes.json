@@ -1,0 +1,12 @@
+{
+    "owner": {
+        "username": "MaseDev33",
+        "email": "mase@masecodes.is-a.dev",
+        "repo": "https://github.com/MaseDev33/masecodes.is-not.cool"
+    },
+
+    "records": {
+        "NS": ["ns1.desec.io", "ns2.desec.org"]
+    },
+    "proxied": false
+}
