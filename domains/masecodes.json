@@ -6,8 +6,8 @@
     },
 
     "records": {
-        "NS": ["ns1.desec.io", "ns2.desec.org"]
-    "DS": [
+        "NS": ["ns1.desec.io", "ns2.desec.org"],
+        "DS": [
             {
                 "key_tag": 36256,
                 "algorithm": 13,
