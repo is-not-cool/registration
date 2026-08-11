@@ -1,0 +1,13 @@
+{
+    "owner": {
+        "username": "smoothbrainsoftware",
+        "email": "lordstickman543@gmail.com",
+        "repo": "https://github.com/smoothbrainsoftware/smoothbrainsoftware.github.io"
+    },
+
+    "records": {
+        "CNAME": "smoothbrainsoftware.github.io"
+    },
+
+    "proxied": false
+}
