@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "encrize",
+    "email": "admin@encrize.vip",
+    "repo": "https://github.com/encrize/encrize.github.io"
+  },
+  "records": {
+    "CNAME": "encrize.github.io"
+  },
+  "proxied": false
+}
