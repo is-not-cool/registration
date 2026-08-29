@@ -6,7 +6,6 @@
   },
 
   "records": {
-    "CNAME": "ee6ece6d00a6f494.vercel-dns-017.com.",
     "TXT": [
       "vc-domain-verify=reynymark.is-not.cool,0c769b40c1d6e577d359"
     ]
