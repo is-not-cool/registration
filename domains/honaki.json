@@ -1,0 +1,11 @@
+{
+    "owner": {
+        "username": "honaki-dev",
+        "email": "",
+        "repo": "https://github.com/honaki-dev/registration"
+    },
+    "records": {
+        "NS": ["ns1.desec.io", "ns2.desec.org"],
+    },
+    "proxied": false
+}
