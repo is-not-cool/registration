@@ -5,7 +5,7 @@
         "repo": "https://github.com/honaki-dev/registration"
     },
     "records": {
-        "NS": ["ns1.example.com", "ns2.example.com"],
+        "NS": ["ns1.desec.io", "ns2.desec.org"],
     },
     "proxied": false
 }
