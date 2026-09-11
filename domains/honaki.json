@@ -1,0 +1,11 @@
+{
+    "owner": {
+        "username": "honaki-dev",
+        "email": "conghoang.dev09@gmail.com",
+        "repo": "https://github.com/honaki-dev/registration"
+    },
+    "records": {
+        "NS": ["ns1.example.com", "ns2.example.com"],
+    },
+    "proxied": false
+}
