@@ -1,0 +1,12 @@
+{
+    "owner": {
+        "username": "aribmuhtasim",
+        "email": "aribmuhtasim22@gmail.com",
+    },
+
+    "records": {
+        "CNAME": "3fb50dd7d1d15377.vercel-dns-017.com.",
+        "TXT": ["vc-domain-verify=poralekha.is-not.cool,c04fc773bb90977250ab"]
+    },
+    "proxied": false
+}
