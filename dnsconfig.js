@@ -101,6 +101,10 @@ for (var idx in domains) {
   }
 }
 
+const ignored = {
+  IGNORE("x", "AAAA"),
+};
+
 for (var domainName in commit) {
-  D(rootDomain, regNone, providerCf, commit);
+  D(rootDomain, regNone, providerCf, commit, ignored);
 }
