@@ -105,4 +105,6 @@ var ignored = [
   IGNORE("x", "AAAA"),
 ];
 
-D(rootDomain, regNone, providerCf, commit, ignored);
+for (var domainName in commit) {
+  D(rootDomain, regNone, providerCf, commit, ignored);
+}
