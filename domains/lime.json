@@ -1,0 +1,11 @@
+{
+    "owner": {
+        "username": "lime",
+        "email": "lime.is.a.dev@gmail.com",
+    },
+
+    "records": {
+        "CNAME": "lime-aboutme.pages.dev",
+    },
+    "proxied": false
+}
