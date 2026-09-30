@@ -1,0 +1,12 @@
+{
+  "description": "TNC - Webstore Subdomain - open source for nonprofits - offering helpful guides and tailored courses for nonprofits",
+  "owner": {
+    "repo": "https://github.com/tnc-on/tnc",
+    "email": "tnc@disroot.org",
+    "discord": "tnc.on"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  },
+  "proxied": false
+}
