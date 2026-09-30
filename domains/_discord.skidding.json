@@ -1,0 +1,11 @@
+{
+    "owner": {
+      "username": "Unixityyy",
+      "email": "isnotcool@unixityyy.dev"
+    },
+    "records": {
+      "TXT": ["dh=dfe9acea3c82de05c7f7306742928f09b57b5b4f"]
+    },
+
+    "proxied": false
+}
