@@ -1,0 +1,11 @@
+{
+    "owner": {
+        "username": "DMDCR",
+        "email": "contactdmdev@gmail.com"
+    },
+
+    "records": {
+        "CNAME": "dmdisnotcool.pages.dev"
+    },
+    "proxied": false
+}
