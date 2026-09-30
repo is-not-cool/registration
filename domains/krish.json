@@ -1,0 +1,16 @@
+{
+    "owner": {
+        "username": "krreeshhh",
+        "email": "krishnaprasath.7x@gmail.com",
+        "repo": "https://github.com/krreeshhh/portfolio"
+    },
+
+    "records": {
+        "CNAME": "76f568eacb62cd8c.vercel-dns-017.com.",
+        "TXT": [
+            "vc-domain-verify=krish.is-not.cool,37b26aac7f3e0630ba79"
+        ]
+    },
+
+    "proxied": false
+}
