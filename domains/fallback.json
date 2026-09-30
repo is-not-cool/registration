@@ -1,0 +1,12 @@
+{
+    "owner": {
+        "username": "trollmeight",
+        "email": "spam@trollmeight.me",
+        "repo": "https://github.com/trollmeight"
+    },
+
+    "records": {
+        "A": ["1.1.1.1", "1.0.0.1"]
+    },
+    "proxied": false
+}
