@@ -5,7 +5,9 @@
     "repo": "https://github.com/AshwithD/registration"
   },
   "records": {
-    "CNAME": "0bd7ff050fbe1660.vercel-dns-017.com"
+    "TXT": [
+      "vc-domain-verify=ashwith.is-not.cool,3e682f9ab5d08ff3febd"
+    ]
   },
   "proxied": false
 }
