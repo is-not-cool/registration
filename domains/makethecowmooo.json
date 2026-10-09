@@ -1,0 +1,10 @@
+{
+  "description": "Click anywhere on the screen to hear the cow moo. The simplest and most satisfying interactive useless cow button website on the internet",
+  "owner": {
+    "username": "https://github.com/rizwanislam-FireFolk",
+    "email": "rizwanislam505@gmail.com"
+  },
+  "record": {
+    "CNAME": "https://makethecowmooo.netlify.app/"
+  }
+}
