@@ -2,11 +2,11 @@
     "owner": {
         "username": "jacobrdale",
         "email": "sudojake@proton.me",
-        "repo": "https://github.com/iSudoJake/website"
+        "repo": "https://github.com/iSudoJake/iSudoJake.github.io"
     },
 
     "records": {
-        "CNAME": "zmhqietm378l.id.wasmer.app"
+        "CNAME": "iSudoJake.github.io"
     },
     "proxied": false
 }
