@@ -1,0 +1,12 @@
+{
+    "owner": {
+        "username": "jacobrdale",
+        "email": "sudojake@proton.me",
+        "repo": "https://github.com/iSudoJake/iSudoJake.github.io"
+    },
+
+    "records": {
+        "CNAME": "isudojake.github.io"
+    },
+    "proxied": false
+}
