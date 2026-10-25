@@ -1,0 +1,12 @@
+{
+    "owner": {
+        "username": "xaldiy",
+        "email": "aldi@v.cd"
+    },
+
+    "records": {
+        "CNAME": "35248ef95d3ba8cd.vercel-dns-017.com",
+        "TXT": ["vc-domain-verify=aldi.is-not.cool,fb8852e1726ccaea19fc"]
+    },
+    "proxied": false
+}
