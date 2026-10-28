@@ -9,5 +9,5 @@
         "TXT": ["apple-domain=hJpKCJSb8uMiL9uQ", "v=spf1 include:icloud.com ~all"],
         "A": ["216.24.57.252", "216.24.57.4"]
     },
-    "proxied": true
+    "proxied": false
 }
