@@ -1,0 +1,12 @@
+{
+    "owner": {
+        "username": "xaldiy",
+        "email": "asp@v.cd"
+    },
+
+    "records": {
+        "CNAME": "map.cname.dev"
+    },
+
+    "proxied": false
+}
