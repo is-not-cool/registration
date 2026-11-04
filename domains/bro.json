@@ -1,0 +1,13 @@
+{
+    "owner": {
+        "username": "shwetankg07",
+        "email": "shwetankg07@gmail.com",
+        "repo": "https://github.com/shwetankg07/bro-is-not-cool"
+    },
+
+    "records": {
+        "CNAME": "cname.vercel-dns.com"
+    },
+
+    "proxied": false
+}
