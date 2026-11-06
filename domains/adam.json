@@ -1,0 +1,18 @@
+{
+    "owner": {
+        "username": "LordLOLQDH",
+        "email": "adam_kraus@icloud.com",
+        "repo": "https://github.com/LordLOLQDH/adam_is_cool"
+    },
+    "records": {
+        "A": [],
+        "AAAA": [],
+        "CNAME": "lordlolqdh.github.io",
+        "MX": [],
+        "TXT": [],
+        "NS": [],
+        "SRV": [],
+        "DS": []
+    },
+    "proxied": false
+}
