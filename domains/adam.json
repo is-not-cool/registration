@@ -12,7 +12,8 @@
         "TXT": [],
         "NS": [],
         "SRV": [],
-        "DS": []
+        "DS": [],
+        "CNAME": "lordlolqdh.github.io"
     },
     "proxied": false
 }
