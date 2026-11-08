@@ -1,0 +1,10 @@
+{
+    "owner": {
+        "username": "Ferxas",
+        "email": "ferxas321@protonmail.com"
+    },
+
+    "records": {
+        "TXT": ["vc-domain-verify=ferxas.is-not.cool,44f57cebf0e14272bb01"]
+    }
+}
