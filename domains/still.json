@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "StillAdum ",
+    "email": "stilladum@example.com",
+    "repo": "https://github.com/stilladum/stilladum.github.io"
+  },
+  "records": {
+    "CNAME": "stilladum.github.io"
+  }
+}
